@@ -1,3 +1,4 @@
 ---
-redirect_from: "https://blog.bela.io/2018/02/22/bela-mini-launch/"
+redirect_to:
+	- https://blog.bela.io/2018/02/22/bela-mini-launch/
 ---
