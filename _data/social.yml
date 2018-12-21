@@ -1,0 +1,12 @@
+- name: facebook
+  link: "https://facebook.com/belaPlatform"
+- name: instagram
+  link: "https://instagram.com/belaPlatform"
+- name: twitter
+  link: "https://twitter.com/belaPlatform"
+- name: youtube
+  link: #
+- name: github
+  link: "https://github.com/belaPlatform/bela"
+- name: envelope
+  link: "mailto:info@bela.io"

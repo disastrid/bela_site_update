@@ -1,0 +1,30 @@
+<div class="full">
+  <h2>Publications featuring Bela</h2>
+  <div class="row edu">
+    <div class="large-12 threeimagebox edu columns bg-grey">
+      {% for researchproject in site.data.pubs %}
+      <div class="large-4 column">
+      {% if forloop.index <= 3 %}
+        <a href="{{ researchproject.link }}" target="_blank"><img src="{{ site.baseurl }}/images/researchprojects/{{ researchproject.image }}" /></a>
+        <a href="{{ researchproject.link }}" target="_blank">{{ researchproject.title }}</a>
+      {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="row edu">
+    <div class="large-12 threeimagebox edu columns bg-grey">
+      {% for researchproject in site.data.pubs %}
+      <div class="large-4 column">
+        {% if forloop.index >= 4 %}
+        <a href="{{ researchproject.link }}" target="_blank"><img src="{{ site.baseurl }}/images/researchprojects/{{ researchproject.image }}" /></a>
+        <a href="{{ researchproject.link }}" target="_blank">{{ researchproject.title }}</a>
+      {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+    
+
+    <div class='two spacing'></div>
+</div>

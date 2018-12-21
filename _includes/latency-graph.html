@@ -1,0 +1,37 @@
+<div class="spacing two"></div>
+
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <h3>Action-to-sound latency across platforms</h3>
+      <div class='spacing'></div>
+      <div class='mod modBarGraph'>
+        <ul class='bars'>
+          {% for platform in site.data.latency %}
+            <li>
+              <h4 style=''>
+                {{platform.name}}
+                <strong>{{platform.ms}}ms</strong>
+              </h4>
+              {% if platform.name=='Bela' %}
+              <p class='highlighted bela' data-percent='{{platform.percent}}'></p>
+              {% else %}
+              <p class='highlighted' data-percent='{{platform.percent}}'></p>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+        <p class="graph-caption" style="font-size: .9em">(See <a href="http://www.nime.org/proceedings/2016/nime2016_paper0005.pdf">this publication</a> for more details on latency.)</p>
+      </div>
+    </div>
+    <div class='medium-6 columns'>
+      <div class='row'>
+        <div class='small-12 columns'>
+          <p>Bela is designed with audio in mind. It uses the BeagleBone Black single-board computer which features a 1GHz ARM Cortex-A8 processor and 512MB of RAM. It runs a custom Linux audio environment that gives you buffer sizes as small as 2 samples, producing latency as low as 1 millisecond from audio in to audio out, or even down to 100 microseconds from analog in to analog out. What's more, every analog and digital pin is automatically sampled at audio rate, providing precise, jitter-free alignment between audio and sensors.</p>
+
+          <p>What this means for you is that your digital musical instruments and interactive hardware just got a lot more responsive and expressive: Bela's speed and timing precision allow for natural, intuitive and immediate gestural control. Digital instrument design has never been this elegant.</p>
+        </div>        
+      </div>
+    </div>
+  </div>
+<div class='two spacing'></div>
+

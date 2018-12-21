@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    {% include hero.html image=page.hero-image %}
+
+    <div id='main' role='main'>
+      <div class='full'>
+  		  <div class='row'>
+  		    <div class='large-12 columns'>
+  		      <h1>{{ page.title }}</h1>
+  		      <div class='spacing'></div>
+  		      <p>{{ content }}</p>
+  		    </div>
+  		  </div>
+		  </div>
+
+      <div class="full inline-links">
+        <div class="row">
+          <div class="large-12 columns">
+            {% for title in site.data.product_list %}
+            <div class="large-4 medium-4 columns">
+              {% if title contains "limited-edition" %}
+                <a href="#{{ title[0] }}" class="button large page-scroll">{{ title[0] | replace: "-", " " }}</a>
+              {% else %}
+                <a href="#{{ title[0] }}" class="button large page-scroll">{{ title[0] }}</a>
+              {% endif %}
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+
+    <!-- Products -->
+    <div class='full'>
+      <div class='row product-section top'>
+        <h2 id="boards">Bela boards</h2>
+      </div>
+      {% for item in site.data.product_list.boards %}
+      <div class='row product-item'>
+        <div class='medium-4 columns'>
+          <img class="fadeinleft" alt="" src="{{ site.baseurl }}/images/products/{{ item.image }}" target='_blank'/>
+        </div>
+        <div class='medium-8 columns'>
+          <h2>{{ item.title }}</h2>
+
+          <p>{{ item.desc }}</p>
+          {% if item.specs %}
+          <ul class='shortcode-list'>
+            {% for thing in item.specs %}
+            <li>
+              <i class='fa fa-check'></i>
+              {{ thing.spec }}
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+          <div class='spacing'></div>
+          <a class='button large' href='{{ item.url }}'  target='_blank'>Buy now</a>
+        </div>
+      </div>
+      {% endfor %}
+
+      <div class='row product-section'>
+        <h2 id="add-ons">Add-ons and expanders</h2>
+      </div>
+      {% for item in site.data.product_list.add-ons %}
+      <div class='row product-item'>
+        <div class='medium-4 columns'>
+          <img class="fadeinleft" alt="" src="{{ site.baseurl }}/images/products/{{ item.image }}"/>
+        </div>
+        <div class='medium-8 columns'>
+          <div class='spacing'></div>
+          <h2>{{ item.title }}</h2>
+          <h4 class="text-light-grey">{{ item.superheading }}</h4>
+          <div class='spacing'></div>
+          <p>{{ item.desc }}</p>
+          <div class='spacing'></div>
+          {% if item.specs %}
+          <ul class='shortcode-list'>
+            {% for thing in item.specs %}
+            <li>
+              <i class='fa fa-check'></i>
+              {{ thing.spec }}
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+          <div class='spacing'></div>
+          <a class='button large page-scroll' href='{{ item.url }}' target='_blank'>Buy now</a>
+        </div>
+      </div>
+      {% endfor %}
+
+      <div class='row product-section'>
+        <h2 id="limited-edition">Limited edition products</h2>
+      </div>
+      {% for item in site.data.product_list.limited-edition %}
+      <div class='row product-item'>
+        <div class='medium-4 columns'>
+          <img class="fadeinleft" alt="" src="{{ site.baseurl }}/images/products/{{ item.image }}"/>
+        </div>
+        <div class='medium-8 columns'>
+          <div class='spacing'></div>
+          <h2>{{ item.title }}</h2>
+          <h4 class="text-light-grey">{{ item.superheading }}</h4>
+          <div class='spacing'></div>
+          <p>{{ item.desc }}</p>
+          <div class='spacing'></div>
+          {% if item.specs %}
+          <ul class='shortcode-list'>
+            {% for thing in item.specs %}
+            <li>
+              <i class='fa fa-check'></i>
+              {{ thing.spec }}
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+
+          {% if item.url %}
+            {% if item.title=='SALT' %}
+            <a class='button large' href='{{ item.url }}' target='_blank'>Read about Salt</a>
+            {% else %}
+            <a class='button large' href='{{ item.url }}' target='_blank'>Buy now</a>
+            {% endif %}
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+      <div class="four spacing"></div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

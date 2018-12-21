@@ -1,0 +1,16 @@
+<div class='two spacing'></div>
+<div class="full">
+  <div class="row">
+    <h2 class="intro">Made with Bela</h2>
+    <div class="large-12 threeimagebox columns bg-grey">
+      {% for project in site.data.projects %}
+      <div class="large-4 column">
+        <a href="{{ project.url }}" target="_blank"><img src="{{ site.baseurl }}/images/projects/{{ project.image }}" /></a>
+        <a href="{{ project.url }}" target="_blank">{{ project.name }}</a>
+        <p>{{ project.desc }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    <div class='two spacing'></div>
+  </div>
+</div>

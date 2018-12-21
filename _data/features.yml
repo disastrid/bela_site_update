@@ -1,0 +1,19 @@
+- title: Built for speed.
+  icon: rocket
+  desc: Bela uses Xenomai Linux for hard real-time audio processing with latencies as low as 100us, a speed that even the best laptop can’t match.
+- title: Code, your way.
+  icon: code
+  desc: Code in C/C++, Puredata, Supercollider, or a variety of other languages. Use the in-browser IDE for C/C++ or your own environment. You develop it, Bela runs it.
+- title: Connect everything.
+  icon: plug
+  desc: Bela provides stereo audio along with 8 channels each of 16-bit analog I/O and 16 channels of digital I/O, all of which are sampled together at audio rates.
+- title: Open source.
+  icon: users
+  desc: Bela’s hardware and software are both open source, and Bela benefits from the innovation and support of its worldwide community of musicians, designers, makers and tinkerers.
+- title: Fits almost anywhere.
+  icon: microchip
+  desc: Bela is powerful, but small enough to fit almost anywhere. Run Bela from an external battery and embed into instruments, interactive objects, effects boxes and more - no laptop required.
+- title: Browser-based IDE.  
+  icon: desktop
+  desc: Bela features a browser-based IDE, with full C/C++ development capabilities. Includes powerful features at your fingertips, such as an in-browser oscilloscope, code examples, and much more.
+

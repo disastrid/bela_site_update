@@ -1,0 +1,16 @@
+- name: Forum
+  url: https://forum.bela.io
+  desc: Meet our worldwide community. Ask questions, get help, and show off what you've made.
+  icon: comments  
+- name: Code
+  url: https://github.com/BelaPlatform/Bela/
+  desc: Bela is open source. Visit our repo to explore our software, examples library, and hardware.
+  icon: code
+- name: Wiki
+  url: https://github.com/BelaPlatform/Bela/wiki/
+  desc: Find technical information, examples, circuit diagrams, as well as our Get Started Guide.
+  icon: info
+- name: Blog
+  url: http://blog.bela.io
+  desc: Read about Bela projects, latest developments and events, as well as how-tos and tutorials.
+  icon: newspaper

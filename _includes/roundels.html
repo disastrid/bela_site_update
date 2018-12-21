@@ -1,0 +1,22 @@
+
+<div class='full mid-grey'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modBoxedTextSlider'>
+        <h2 class="intro">Features</h2>
+        <div class='boxes'>
+          {% for feature in site.data.features %}
+            <div class='box bg-grey roundel'>
+              <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="fa fa-{{ feature.icon }} fa-stack-1x fa-inverse icon"></i>
+              </span>
+              <h4>{{feature.title}}</h4>
+              <p class='feature'>{{feature.desc}}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

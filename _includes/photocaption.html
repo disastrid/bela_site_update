@@ -1,0 +1,11 @@
+{% if include.src != "" %}
+<div class="full">
+  <div class="row">
+    <div class="photocaption">
+      <img src="{{ site.baseurl }}/images/{{ include.src }}" />
+      {% if include.caption %}<p class="caption bg-grey">{{ include.caption }}</p>{% endif %}
+    </div>
+  </div>
+</div>
+<div class="spacing four"></div>
+{% endif %}

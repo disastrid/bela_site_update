@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    {% include hero.html hero=page.hero-image %}
+
+    <div id='main' role='main'>
+      <div class='full'>
+      <div class='row'>
+        <div class='large-12 columns'>
+        	<h1>{{ page.title }}</h1>
+          <p>{{ content }}</p>
+        </div>
+      </div>
+      <div class="spacing four"></div>
+      <div class='row'>
+      	<div class='large-12 columns'>
+      		{% for item in site.data.press %}
+      		<div>
+      			<span class="press title">{{ item.name }}: </span><a href="{{ item.url }}" target="_blank" class="press link">{{ item.desc }}</a>
+      		</div>
+      		{% endfor %}
+      	</div>
+  	  </div>
+      <div class="four spacing"></div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

@@ -1,0 +1,440 @@
+$white: #fff;
+$grey: #f9f9f9;
+$light-grey: #999;
+$mid-grey: #f5f5f5;
+$primary: #009587;
+$secondary: #ff5e5b;
+
+$breakpoint-medium: 568px;
+$breakpoint-large: 960px;
+
+/* generic */
+body {
+  overflow-x: hidden;
+}
+
+.contain-to-grid {
+  background: rgba(100, 100, 100, 0.7);
+  box-shadow: none;
+}
+
+.bg-grey {
+  background: $grey;
+}
+.text-light-grey {
+  color: $light-grey;
+}
+
+/* header */
+@media screen and (min-width: 960px) {
+  .top-bar {
+    background: none;
+  }
+  .top-bar-section {
+    li:not(.has-form) a:not(.button) {
+      color: $white;
+      background: none;
+    }
+    .has-dropdown {
+      & > a::after {
+        border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent ;
+      }
+    }
+  }
+}
+
+/* hero images */
+#hero {
+  position: relative;
+  top: -100px;
+  z-index: -1;
+  .full {
+    padding: 0;
+  }
+  .row {
+    max-width: none;
+  }
+  .hero-image {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(30em + 200px);
+    margin-bottom: -100px;
+    padding: 0;
+    width: 100%;
+  }
+  &.sub {
+    .hero-image {
+      height: 30em;
+    }
+  }
+}
+
+/* products */
+.product-item {
+  margin-bottom: calc(1.0714285714rem * 2);
+}
+
+/* roundels */
+.box {
+  &.bg-grey {
+    background-color: $mid-grey !important;
+  }
+}
+
+.roundel {
+  .text-primary {
+    color: $teal-main !important;
+    font-size: 2em !important;
+    line-height: 1 !important;
+    width: 100% !important;
+  }
+  > h4 {
+    color: $accent-01;
+    font-size: 1.3em;
+    padding-top: 0.6em;
+  }
+  .icon {
+    color: $white !important;
+    font-size: 1em !important;
+    height: auto !important;
+    line-height: inherit !important;
+    width: 100% !important;
+  }
+}
+
+/* email sign up */
+#mce-EMAIL {
+  height: 3.3rem;
+}
+
+/* footer */
+#footer {
+  a {
+  border: 0;
+  }
+}
+.footer-image {
+	width: 80%;
+	height: auto;
+	padding-top: .6em;
+	opacity: .1;
+}
+
+/* product page */
+.product-section {
+  padding: 2em 0 1.5em 0;
+  > h2 {
+    font-size: 3em;
+    color: $teal-base;
+  }
+  &.top {
+    padding: 0 0 1.5em 0;
+  }
+}
+
+/* inlikne links for product page */
+.inline-links {
+  .button {
+    width: 100%;
+    text-transform: capitalize;
+    &:hover {
+      background: $teal-01;
+    }
+  }
+}
+
+ul.shortcode-list i {
+  color: $accent-01 !important;
+}
+
+/* newsletter field */
+.modCallToAction {
+  background-color: $teal-01;
+  > p {
+    color: $black;
+    }
+}
+
+.feature {
+  font-size: 1em;
+}
+
+/* this is the full-width front-page image with links on top of it */
+.about-section {
+  position: relative;
+  z-index: -1;
+  .full {
+    padding: 0;
+  }
+  .row {
+    max-width: none;
+  }
+  .about-section-image {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(30em + 200px);
+    padding: 0;
+    width: 100%;
+  }
+  &.sub {
+    .about-section-image {
+      height: 30em;
+    }
+  }
+}
+
+/* photo with caption */
+@media screen and (min-width: $breakpoint-large) {
+  .photocaption {
+    width: 75%;
+    &.columns,
+    &.column {
+      &.large-6 {
+        width: 50%;
+      }
+    }
+  }
+}
+.photocaption {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  img {
+    width: 100%;
+  }
+  .caption {
+    font-size: 1em;
+    line-height: 2;
+    padding: 1.0714285714rem;
+  }
+}
+
+.threeimagebox {
+  padding-bottom: 1.0714285714rem;
+  padding-top: 1.0714285714rem;
+  a {
+    padding: 1em 0;
+    font-family: 'Space Mono';
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: $accent-01;
+    padding-top: 0.5em;
+    border: 0;
+    &:hover {
+      color: $grey-dark-02;
+    }
+    >img {
+      padding-bottom: 1em;
+    }
+  }
+  &.edu {
+    a {
+      font-size: 1em;
+      font-weight: 400;
+      text-transform: none;
+      color: $grey-dark-03;
+      border: 0;
+      &:hover {
+        color: $accent-01;
+      }
+    }
+  }
+}
+
+/* styles for front page sections */
+.intro {
+  color: $accent-01;
+  text-transform: none;
+}
+
+h2.intro {
+  text-transform: uppercase;
+  color: #383838;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.button {
+  &.intro {
+    margin: 0 auto;
+    color: white;
+    &:hover {
+      background: $teal-01;
+    }
+  }
+  &.intro-button {
+    color: white;
+    margin-top: 1em;
+    font-size: 2em;
+    &:hover {
+      background: $accent-01;
+    }
+  }
+}
+
+.intro-title {
+  text-transform: none;
+}
+
+.intro-text {
+  font-size: 1.5em;
+  >.intro-subheading {
+    color: #ff5e5b;
+    font-size: 1.7em;
+  }
+}
+
+.newsletter-sub {
+  color: #4d4d4d;
+  font-family: 'Space Mono';
+  font-size: 1.5em;
+  font-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sub-button {
+  background: $teal-main;
+  &:hover {
+    background: $teal-base;
+  }
+}
+
+/* Latency graph */
+.modBarGraph .bars p.highlighted {
+  background-color: $accent-01;
+  &.bela {
+    background: $teal-main;
+  }
+}
+
+.video {
+  margin: 0 auto;
+  width: calc(80% - 60px);
+  &.full {
+    padding: 0;
+  }
+  .column {
+    display: block;
+    height: auto;
+    overflow: hidden;
+    padding-top: 52.6315%;
+    position: relative;
+    width: 100%;
+  }
+  iframe {
+    bottom: 0;
+    display: block;
+    height: 100%;
+    left: 0;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+
+/* List text */
+.list-header {
+  font-family: 'Space Mono';
+  color: $accent-01;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+a {
+  color: $teal-base;
+  border-bottom: 1px dashed $grey-dark-03;
+  &:hover, &:focus {
+    color: $teal-01;
+  }
+}
+
+.press {
+  line-height: 2em;
+  &.title {
+    font-size: 1.5em;
+    font-family: 'Space Mono';
+    color: $grey-dark-03;
+    font-weight: 700;
+  }
+  &.link {
+    font-size: 1.5em;
+    font-family: 'Poppins';
+  }
+}
+
+@media screen and (min-width: $breakpoint-medium) {
+  .resource {
+    > p {
+      min-height: 140px;
+    }
+  }
+}
+
+.resource {
+  > p {
+    margin: 2em 0;
+  }
+  &.title {
+    text-align: center;
+    color: $accent-01;
+    margin: 1em 0;
+    > a {
+      color: $accent-01;
+      padding: 0 1em;
+      background: $white;
+      &:hover {
+        background: $grey-dark-03;
+        color: $white;
+      }
+    }
+  }
+  > a {
+    color: $white;
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: $breakpoint-medium) {
+  .slick-initialized {
+    .slick-slide {
+      min-height: 480px;
+    }
+  }
+}
+
+/* Taking edge border off blockquotes */
+
+blockquote {
+  border: 0;
+}
+
+/* resolving border issue on various links */
+
+.menu-icon {
+  >a {
+    border: 0;
+  }
+}
+
+.back {
+  >h5 {
+    >a {
+      border: 0;
+    }
+  }
+}
+
+/* overrides for top bar on mobile */
+
+.top-bar.expanded {
+  background: #333;
+}

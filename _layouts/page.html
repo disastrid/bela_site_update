@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    {% include hero.html hero=page.hero-image %}
+
+    <div id='main' role='main'>
+      <div class='full'>
+		  <div class='row'>
+		    <div class='large-12 columns'>
+		      <h1>{{ page.title }}</h1>
+		      {% if page.subheading %}
+		      	<h2>{{ page.subheading }}</h2>
+	      	  {% endif %}
+		  	</div>
+		    <div class='spacing'></div>
+		      {{ content }}
+		    </div>
+		  </div>
+		  
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

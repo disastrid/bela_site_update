@@ -1,0 +1,17 @@
+{% if page.section_id=='home' %}
+<div id="hero">
+{% else %}
+<div id="hero" class="sub">
+{% endif %}
+  <div class="full" role="hero-image">
+    <div class="row">
+      <style>
+        .hero-image {
+          background-image: url("{{ site.baseurl }}/images/hero/{{ page.hero-image }}");
+        }
+      </style>
+      <div class="large-12 columns hero-image">
+      </div>
+    </div>
+  </div>
+</div>

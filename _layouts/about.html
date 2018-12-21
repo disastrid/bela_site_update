@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    {% include hero.html hero=page.hero-image %}
+
+    <div id='main' role='main'>
+      <div class='full'>
+      <div class='row'>
+        <div class='large-12 columns'>
+          <p>{{ content }}</p>
+        </div>
+      </div>
+    </div>
+
+      <div class="four spacing"></div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

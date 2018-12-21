@@ -1,0 +1,28 @@
+- name: Home
+  path: /
+  section-id: home
+- name: About
+  path: /about
+  section-id: about
+- name: Products
+  path: /products
+  section-id: products
+- name: Education
+  path: /education
+  section-id: education
+- name: Resources
+  path: /resources
+  section-id: resources
+  children:
+    - name: Forum
+      external: http://forum.bela.io
+    - name: Code
+      external: https://github.com/belaplatform/bela/
+    - name: Wiki
+      external: https://github.com/BelaPlatform/Bela/wiki/
+    - name: Get started
+      external: https://github.com/BelaPlatform/Bela/wiki/Getting-started-with-Bela
+- name: Blog
+  external: http://blog.bela.io
+- name: Shop
+  external: https://shop.bela.io

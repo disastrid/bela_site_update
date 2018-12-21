@@ -1,0 +1,15 @@
+- name: Bela
+  ms: '0.5'
+  percent: '2.5'
+- name: Midi on Mac
+  ms: '5.0'
+  percent: '25'
+- name: iPhone 6+
+  ms: '9.0'
+  percent: '45'
+- name: Arduino to Max
+  ms: '11.0'
+  percent: '55'
+- name: Arduino to RPi
+  ms: '19.0'
+  percent: '95'

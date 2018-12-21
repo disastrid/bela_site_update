@@ -1,0 +1,36 @@
+- title: Bela-Based Augmented Acoustic Guitars for Inverse Sonic Microinteraction
+  authors: Gonzalez, V. E., Zelechowska, A., Martin, C. P., Johnson, V., Vadstensvik, K. A., & Refsum, A.
+  source: Proceedings of the International Conference of New Interfaces for Musical Expression (NIME), 2018
+  desc: This article describes the design and construction of a collection of digitally-controlled augmented acoustic guitars for the installation Sverm–Resonans. Bela and distance sensors are used to augment the guitars so they only resonate when a person is standing perfectly still in front of the instrument for a number of minutes.
+  link: http://www.nime.org/proceedings/2018/nime2018_paper0068.pdf
+  image: guitar.jpg
+- title: 'Making Grooves with Needles: Using e-textiles to Encourage Gender Diversity in Embedded Audio Systems Design'
+  authors: Stewart, R., Skach, S., & Bin, A.
+  source: Proceedings of Designing Interactive Systems Conference 2018
+  desc: This paper explores gender diversity in engineering and computer science, in particular music technology. The authors use a Bela-based workshop as a case study for reflecting on the current state of gender diversity in creative technology disciplines. This work was awarded an honourable mention for Best Paper at DIS 2018.
+  link: https://www.researchgate.net/publication/325701621_Making_Grooves_with_Needles_Using_e-textiles_to_Encourage_Gender_Diversity_in_Embedded_Audio_Systems_Design
+  image: e-textile.jpg
+- title: 'Action-sound Latency and the Perceived Quality of Digital Musical Instruments: Comparing Professional Percussionists and Amateur Musicians'
+  authors: Jack, R. H., Mehrabi, A. , Stockman, T. , & McPherson., A. P.
+  source: Music Perception. Vol. 36, Issue 1, 2018
+  desc: This paper investigates the influence of small amounts of delay between action and sound on the movements of orchestral percussionists when performing with a percussive digital musical instrument. It also examines the influence of this delay on their impressions of instrument quality. Bela was used to create the base instrument for these experiments, a percussive digital musical instrument made from ceramic tiles.
+  link: https://www.researchgate.net/publication/327287000_Action-sound_Latency_and_the_Perceived_Quality_of_Digital_Musical_Instruments_Comparing_Professional_Percussionists_and_Amateur_Musicians
+  image: tiles.jpg
+- title: Auditory prediction cues motor preparation in the absence of movements
+  authors: Stephan, M. A., Lega, C., & Penhune., V. B.
+  source: NeuroImage 2018
+  desc: This paper investigates the integrated representation of sensory and motor information in the brain, in particular that seeing or hearing action-related stimuli may automatically cue the movements required to respond to or produce them. In this study the authors tested whether anticipation of tones in a known melody automatically activates corresponding motor representations in a predictive way. Bela was used to execute timing-critical actions during the experiment, generating triggers, generating sequences of audio stimuli, recording key presses, and generating audio feedback for the key presses. [Click for full paper]().
+  link: https://www.sciencedirect.com/science/article/pii/S1053811918302544
+  image: auditory.jpg
+- title: 'Desert and Sonic Ecosystems: Incorporating Environmental Factors within Site-Responsive Sonic Art'
+  authors: Hayes, L., Stein, J.
+  source: Applied Sciences, 8(1) 2018
+  desc: This paper focuses on the role of site-responsive sonic art within an ecosystemic framework, both in terms of incorporating systems of living organisms, as well as sonic interaction design. It describes the implementation of such a system within a large-scale site-responsive sonic art installation that took place in the subtropical desert climate of Arizona in 2017. Bela was used to create various parts of the installation.
+  link: https://www.researchgate.net/publication/322511282_Desert_and_Sonic_Ecosystems_Incorporating_Environmental_Factors_within_Site-Responsive_Sonic_Art
+  image: desert.jpg
+- title: Building a Maker Community Around an Open Hardware Platform
+  authors: Morreale, F., Moro, G., Chamberlain, A., Benford, S., & McPherson, A. P.
+  source: Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems
+  desc: This paper reflects on the dynamics and practices of building a maker community around a new hardware platform. Bela is used as a case study of such an activity.
+  link: https://eprints.nottingham.ac.uk/41912/1/Chamberlain%20music%20HCI.pdf
+  image: steim.jpg

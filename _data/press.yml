@@ -1,0 +1,24 @@
+- name: The Ben Heck Show
+  url: https://www.youtube.com/watch?v=R73LjZKkI4E
+  desc: Felix builds a drum sequencer with a Bela Mini
+- name: Sythtopia
+  url: http://www.synthtopia.com/content/2018/02/22/bela-mini-an-open-hardware-platform-for-audio-now-available/
+  desc: Bela Mini, An Open Hardware Platform For Audio, Now Available
+- name: Create Digital Music
+  url: http://cdm.link/2018/02/bela-mini-gives-you-1ms-sound-anywhere-to-turn-into-anything-for-120/
+  desc: Bela Mini gives you 1ms sound anywhere, to turn into anything, for £120
+- name: Makery
+  url: http://www.makery.info/en/2018/02/06/bela-un-raspberry-pi-a-quelques-milliemes-de-seconde-pres/
+  desc: Bela, just a few milliseconds away from a Raspberry Pi
+- name: Motherboard
+  url: https://motherboard.vice.com/en_us/article/4xa7dn/tomorrows-musical-instruments-look-like-lightsabers-and-metal-detectors
+  desc: Tomorrow's musical instruments look like lightsabers and metal detectors
+- name: Hackster.io
+  url: https://blog.hackster.io/the-new-bela-mini-low-latency-audio-in-a-smaller-package-f41eeccc88cf
+  desc: The New Bela Mini, Low-Latency Audio in a Smaller Package
+- name: Hackster.io
+  url: https://www.hackster.io/glowascii/getting-started-with-bela-mini-e23ed2
+  desc: Getting started with the Bela Mini
+- name: Hack Space Magazine
+  url: https://hackspace.raspberrypi.org/issues/11
+  desc: Featured in Best Maker Hardware 2018 (p 43)
