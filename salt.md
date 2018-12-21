@@ -1,3 +1,3 @@
 ---
-redirect-from: "http://blog.bela.io/2018/05/02/salt-a-programmable-eurorack-syntesizer/"
+redirect_from: "http://blog.bela.io/2018/05/02/salt-a-programmable-eurorack-syntesizer/"
 ---
