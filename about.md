@@ -39,4 +39,4 @@ For development, Bela lets you code the way that suits you best, and gives you t
 
 # Who makes Bela?
 
-Bela was born in the [Augmented Instruments Laboratory](http://instrumentslab.org/), in the [Centre for Digital Music](http://c4dm.eecs.qmul.ac.uk/) at [Queen Mary University of London](https://www.qmul.ac.uk/). Bela is now developed and produced by Augmented Instruments Ltd in London, UK. Learn more about Bela's origins on the [Our Story](our-story/) page.
+Bela was born in the [Augmented Instruments Laboratory](http://instrumentslab.org/), in the [Centre for Digital Music](http://c4dm.eecs.qmul.ac.uk/) at [Queen Mary University of London](https://www.qmul.ac.uk/). Bela is now developed and produced by Augmented Instruments Ltd in London, UK. Learn more about Bela's origins on the [Our Story](our-story) page.
