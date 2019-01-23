@@ -55,11 +55,11 @@ If you've made something with Bela and want to use our logo, we have a logo espe
 
 <p class="list-header">Can I call what I've made a Bela product?</p>
 
-Calling something a "Bela product" is reserved only for things made or licensed by Bela and Augmented Instruments Ltd, and cannot be used to describe unofficial product variants - this is to provide clarity about the products that we develop, endorse and support. 
+Calling something a "Bela product" or using Bela in a product name is reserved only for things made or licensed by Bela and Augmented Instruments Ltd, and cannot be used to describe unofficial product variants - this is to provide clarity about the products that we develop, endorse and support. 
 
-But, here's how you can integrate Bela with your product name:
+If you've made something using Bela, here's how you can integrate Bela with your product name:
 
 - [ProductName] for Bela
 - [ProductName] (Bela-compatible)
 
-Names such as "Bela [ProductName]", "[ProductName] Bela", or "Bela-compatible [ProductName]" should be avoided. If you're not sure, please <a href="mailto:info@bela.io">drop us a line</a> and we can advise.
+Please note that we don't authorise the use of "Bela" outside the above, and other terms (such as "Bela [ProductName]", "[ProductName] Bela", or "Bela-compatible [ProductName]") should be avoided. If you're not sure or have any questions, please <a href="mailto:info@bela.io">drop us a line</a>.
