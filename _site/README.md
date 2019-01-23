@@ -9,17 +9,27 @@
 
 ## Site structure
 The site consists of a number of pages. These are:
-- index.html (the home page)
-- about.html
-- education.html
-- products.html
-- resources.html
+- index.md(the home page)
+- about.md
+- education.md
+- products.md
+- resources.md
 
 Each of these pages has content that is included from two places: The frontmatter, and data files. These are the only two things you need to edit.
 
+## Editing page content
+
+Each page's content (the `.md` files in the top level domain) can be written in markdown, like this:
+
+```
+# Section title
+
+Section content goes here.
+```
+
 ### Frontmatter
 
-This is the stuff at the top of the file that specifies its title and other basic data. It looks like this:
+This is the stuff at the top of the file that specifies the page title and other basic data. It looks like this:
 
 ```
 ---
@@ -28,7 +38,7 @@ title: Page Title
 hero-image: image.png
 ---
 ```
-If you want to change the *title* or *hero image* of a page, this is where you do it. For title, just 
+If you want to change the *title* or *hero image* of a page, this is where you do it. For title, just change the text.
 
 ## Editing hero images
 
@@ -77,7 +87,7 @@ title: Your Page Title
 hero-image: nameOfFile.jpg (see the section above for more info about hero images!)
 ----
 ```
-3. Add your content.
+3. Save the file as an `.md` file, and add your content.
 
 ## Data files
 

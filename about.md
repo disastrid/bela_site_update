@@ -40,3 +40,29 @@ For development, Bela lets you code the way that suits you best, and gives you t
 # Who makes Bela?
 
 Bela was born in the [Augmented Instruments Laboratory](http://instrumentslab.org/), in the [Centre for Digital Music](http://c4dm.eecs.qmul.ac.uk/) at [Queen Mary University of London](https://www.qmul.ac.uk/). Bela is now developed and produced by Augmented Instruments Ltd in London, UK. Learn more about Bela's origins on the [Our Story](our-story) page.
+<<<<<<< Updated upstream
+=======
+
+# Making products with Bela
+
+<p class="list-header">I want to make a commercial product with Bela or integrate it into an application. How do I make that happen?</p>
+
+The Bela team is always eager to talk to people wanting to integrate Bela into commercial products, and we're available for consultancy to integrate Bela into applications for commercial deployment. Please <a href="mailto:info@bela.io">drop us an email</a> with details of your plan, and we'd be happy to discuss it.
+
+<p class="list-header">I've made something really cool with Bela! Can I put your logo on it?</p>
+
+Bela's name and logo are trademarked, and are reserved for commercial products that are produced by or licensed by Bela and Augmented Instruments Ltd.
+
+If you've made something with Bela and want to use our logo, we have a logo especially for community products! Download it <a href="bela_community_logo.svg" target="new">here</a>. You're free to use it on physical products, websites, in photos, or anywhere else to show that Bela is in what you've made.
+
+<p class="list-header">Can I call what I've made a Bela product?</p>
+
+Calling something a "Bela product" is reserved only for things made or licensed by Bela and Augmented Instruments Ltd, and cannot be used to describe unofficial product variants - this is to provide clarity about the products that we develop, endorse and support. 
+
+But, here's how you can integrate Bela with your product name:
+
+- [ProductName] for Bela
+- [ProductName] (Bela-compatible)
+
+Please note that we don't authorise the use of the Bela name outside the above, and other terms (such as "Bela [ProductName]", "[ProductName] Bela", or "Bela-compatible [ProductName]") should be avoided. If you're not sure or have any questions, please <a href="mailto:info@bela.io">drop us a line</a>.
+>>>>>>> Stashed changes
