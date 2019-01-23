@@ -40,8 +40,6 @@ For development, Bela lets you code the way that suits you best, and gives you t
 # Who makes Bela?
 
 Bela was born in the [Augmented Instruments Laboratory](http://instrumentslab.org/), in the [Centre for Digital Music](http://c4dm.eecs.qmul.ac.uk/) at [Queen Mary University of London](https://www.qmul.ac.uk/). Bela is now developed and produced by Augmented Instruments Ltd in London, UK. Learn more about Bela's origins on the [Our Story](our-story) page.
-<<<<<<< Updated upstream
-=======
 
 # Making products with Bela
 
@@ -64,5 +62,4 @@ But, here's how you can integrate Bela with your product name:
 - [ProductName] for Bela
 - [ProductName] (Bela-compatible)
 
-Please note that we don't authorise the use of the Bela name outside the above, and other terms (such as "Bela [ProductName]", "[ProductName] Bela", or "Bela-compatible [ProductName]") should be avoided. If you're not sure or have any questions, please <a href="mailto:info@bela.io">drop us a line</a>.
->>>>>>> Stashed changes
+Names such as "Bela [ProductName]", "[ProductName] Bela", or "Bela-compatible [ProductName]" should be avoided. If you're not sure, please <a href="mailto:info@bela.io">drop us a line</a> and we can advise.
