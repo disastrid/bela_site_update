@@ -41,6 +41,8 @@ For development, Bela lets you code the way that suits you best, and gives you t
 
 Bela was born in the [Augmented Instruments Laboratory](http://instrumentslab.org/), in the [Centre for Digital Music](http://c4dm.eecs.qmul.ac.uk/) at [Queen Mary University of London](https://www.qmul.ac.uk/). Bela is now developed and produced by Augmented Instruments Ltd in London, UK. Learn more about Bela's origins on the [Our Story](our-story) page.
 
+# Making products with Bela
+
 <p class="list-header">I want to make a commercial product with Bela, how do I make that happen?</p>
 
 The Bela team is always happy to talk to people wanting to integrate Bela into commercial products, and we're available for consultancy to integrate Bela into applications for commercial deployment. Please <a href="mailto:info@bela.io">drop us an email</a> with details of your plan, and we'd be happy to discuss it.
