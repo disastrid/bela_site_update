@@ -60,10 +60,10 @@ Aalto University, Finland
 > The course, taught by Robert Jack and Camilo Sanchez in 2018, is currently led by Koray Tahiroğlu, head of the [Sound and Physical Interaction](https://sopi.aalto.fi/){:target="_blank"} research group.
 
 {:.list-header}
-Musical Robotics  
+Musical Machines  
 University of Sussex, UK
 
-> At the University of Sussex, [Alice Eldridge](http://www.sussex.ac.uk/profiles/127749){:target="_blank"} is a lecturer in Music and Music Technology and leads the Musical Robots module. Alice is one of Bela's earliest adopters, and has helped us refine the platform through discussions on the forum and the projects she has worked on. The Musical Robots module focuses on creating interactive robots that can produce their own music through their movement and by detecting the movement of others.
+> At the University of Sussex, [Alice Eldridge](http://www.sussex.ac.uk/profiles/127749){:target="_blank"} is a lecturer in Music and Music Technology and runs the Generative Arts and Musical Machines module with colleague [Dr Chris Kiefer](http://www.sussex.ac.uk/profiles/208667){:target="_blank"}. Alice is one of Bela's earliest adopters, and has helped us refine the platform through discussions on the forum and projects she has worked on. The Musical Machines module focuses on creating interactive robots that can produce their own music through their movement and by detecting the movement of others.
 
 {:.list-header}
 Programming Sound, Performance Systems  
