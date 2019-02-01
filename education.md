@@ -69,7 +69,7 @@ University of Sussex, UK
 Programming Sound, Performance Systems  
 Rhode Island School of Design, USA
 
-> At Rhode Island School of Design, [Mark Cetilia](http://mark.cetilia.org/){:target="_blank"} and [Shawn Greenlee](http://shawngreenlee.com/){:target="_blank"} teach classes on art, technology and sound. Mark's work explores the possibilities of generative systems in art, design, and sound. They use Bela to teach the courses Programming Sound and Sound Practices which focus on acoustic, electronic, and/or computer-based means of sound production and reception.
+> At Rhode Island School of Design, [Mark Cetilia](http://mark.cetilia.org/){:target="_blank"} and [Shawn Greenlee](http://shawngreenlee.com/){:target="_blank"} teach classes on art, technology and sound. Mark's work explores the possibilities of generative systems in art, design, and sound. Shawn's recent focus has been on generating digital audio from graphic patterns. They use Bela to teach the courses Programming Sound and Sound Practices which focus on acoustic, electronic, and/or computer-based means of sound production and reception.
 
 {:.list-header}
 Physical Interface Design and Realtime Interaction and Performance  
