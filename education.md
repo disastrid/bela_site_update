@@ -75,7 +75,7 @@ Rhode Island School of Design, USA
 Physical Interface Design and Realtime Interaction and Performance  
 Aalborg University, Denmark
 
-> In the department of Architecture, Design and Media Technology at Aalborg University Copenhagen, Bela the platform used by undergraduate and graduate students on the Physical Interface Design and Realtime Interaction and Performance courses, introducing students to the tools, concepts and practices for creating new sonic and embodied interactions. The courses are led by Dan Overholt who runs the [Augmented Performance Lab](https://www.en.cph.aau.dk/collaboration/students/labs-campus/labs/augmented-performance-lab.cid309567){:target="_blank"}.
+> In the department of Architecture, Design and Media Technology at Aalborg University Copenhagen, Bela is used by undergraduate and graduate students on the Physical Interface Design and Realtime Interaction and Performance courses. These courses introduce students to the tools, concepts and practices for creating new sonic and embodied interactions and are led by Dan Overholt who runs the [Augmented Performance Lab](https://www.en.cph.aau.dk/collaboration/students/labs-campus/labs/augmented-performance-lab.cid309567){:target="_blank"}.
 
 {:.list-header}
 Real Time Digital Signal Processing  
