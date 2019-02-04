@@ -59,7 +59,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: calc(30em + 200px);
+    height: calc(20em + 200px);
     margin-bottom: -100px;
     padding: 0;
     width: 100%;
@@ -437,4 +437,32 @@ blockquote {
 
 .top-bar.expanded {
   background: #333;
+}
+
+.sale-banner {
+  background: $accent-01;
+  padding: .2em 1em;
+  >p {
+    font-family: 'Space Mono';
+    color: white;
+    text-align: center;
+    margin: 0;
+    line-height: 1em;
+    padding: 1em;
+    opacity: .9;
+    font-size: 1.2rem;
+    >a {
+      color: white;
+      opacity: 1;
+    }
+  }
+  >.button {
+    display: inline-block;
+    background-color: white;
+    color: $grey-dark-03;
+    &:hover {
+      background: $grey-dark-02;
+      color: white;
+    }
+  }
 }
