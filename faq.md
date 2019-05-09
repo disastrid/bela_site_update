@@ -9,25 +9,25 @@ title: Frequently Asked Questions
 Welcome to the Frequently Asked Questions page! Please browse the questions and answers below. If your query isn't answered here, please email us.
 
 1. <a href="#1" class="page-scroll">Is the number of analog inputs (or outputs) extendable?</a>
-2. <a href="#1" class="page-scroll">Can I connect a microphone to the audio input?</a>
-3. <a href="#1" class="page-scroll">So you are running Pd and and you claim less than one millisecond latency? How is that possible, given Pd's minimum buffer size is 64 samples?</a>
-4. <a href="#1" class="page-scroll">Is it the same as an Arduino with an MP3 shield?</a>
-5. <a href="#1" class="page-scroll">Can you make a VST plugin that talks to Bela?</a>
-6. <a href="#1" class="page-scroll">Can the audio hardware be accessed via normal audio drivers or Jack?</a>
-7. <a href="#1" class="page-scroll">How does Bela compare to Axoloti?</a>
-8. <a href="#1" class="page-scroll">How does it compare to the Raspberry Pi 2 with a USB dongle?</a>
-9. <a href="#1" class="page-scroll">Will you offer an enclosure?</a>
-10. <a href="#1" class="page-scroll">What about customs duties?</a>
-11. <a href="#1" class="page-scroll">Why not use a specialised DSP processor instead of the ARM CPU?</a>
-12. <a href="#1" class="page-scroll">Can I connect Bela to my Arduino?</a>
-13. <a href="#1" class="page-scroll">Does it play uncompressed audio files from an SD Card? Will it support MP3?</a>
-14. <a href="#1" class="page-scroll">Can it do convolution reverb?</a>
-15. <a href="#1" class="page-scroll">What kind of Pd does it use?</a>
-16. <a href="#1" class="page-scroll">What Linux distribution are you running?</a>
-17. <a href="#1" class="page-scroll">What voltage levels are supported?</a>
-18. <a href="#1" class="page-scroll">Are there any I2S or SPI buses available on board?</a>
-19. <a href="#1" class="page-scroll">What BBB header pins are used by the Bela cape?</a>
-20. <a href="#1" class="page-scroll">Can I run [audio program X] on Bela?</a>
+2. <a href="#2" class="page-scroll">Can I connect a microphone to the audio input?</a>
+3. <a href="#3" class="page-scroll">So you are running Pd and and you claim less than one millisecond latency? How is that possible, given Pd's minimum buffer size is 64 samples?</a>
+4. <a href="#4" class="page-scroll">Is it the same as an Arduino with an MP3 shield?</a>
+5. <a href="#5" class="page-scroll">Can you make a VST plugin that talks to Bela?</a>
+6. <a href="#6" class="page-scroll">Can the audio hardware be accessed via normal audio drivers or Jack?</a>
+7. <a href="#7" class="page-scroll">How does Bela compare to Axoloti?</a>
+8. <a href="#8" class="page-scroll">How does it compare to the Raspberry Pi 2 with a USB dongle?</a>
+9. <a href="#9" class="page-scroll">Will you offer an enclosure?</a>
+10. <a href="#10" class="page-scroll">What about customs duties?</a>
+11. <a href="#11" class="page-scroll">Why not use a specialised DSP processor instead of the ARM CPU?</a>
+12. <a href="#12" class="page-scroll">Can I connect Bela to my Arduino?</a>
+13. <a href="#13" class="page-scroll">Does it play uncompressed audio files from an SD Card? Will it support MP3?</a>
+14. <a href="#14" class="page-scroll">Can it do convolution reverb?</a>
+15. <a href="#15" class="page-scroll">What kind of Pd does it use?</a>
+16. <a href="#16" class="page-scroll">What Linux distribution are you running?</a>
+17. <a href="#17" class="page-scroll">What voltage levels are supported?</a>
+18. <a href="#18" class="page-scroll">Are there any I2S or SPI buses available on board?</a>
+19. <a href="#19" class="page-scroll">What BBB header pins are used by the Bela cape?</a>
+20. <a href="#20" class="page-scroll">Can I run [audio program X] on Bela?</a>
 
 ### <a id="1"></a>Is the number of analog inputs (or outputs) extendable?
 
