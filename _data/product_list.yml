@@ -33,8 +33,8 @@ limited-edition:
   - title: SALT
     desc: SALT is a fully programmable Bela synth module created in collaboration with Rebel Technology. This module has 4 CV and 4 trigger, expandable up to 8 of each with the SALT+ expander.
     image: salt.png
-    url: https://blog.bela.io/2018/05/02/salt-a-programmable-eurorack-syntesizer/
+    url: https://shop.bela.io/modular/salt
   - title: PEPPER
     desc: PEPPER is a DIY, low-cost solution for integrating your Bela board with the world of Modular and Eurorack synths. PEPPER is a custom-designed, bare PCB that comes with a list of common through-hole components and faceplate. Attach PEPPER to your Bela board and you can start prototyping and experimenting with Bela and your modular synth.
     image: pepper.png
-    url: https://github.com/BelaPlatform/Bela/wiki/Pepper
+    url: https://shop.bela.io/modular/pepper
