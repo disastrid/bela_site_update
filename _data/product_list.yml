@@ -4,14 +4,14 @@ boards:
     image: starter.jpg
     url: https://shop.bela.io/bela
     specs:
-      - spec: Stero audio I/O
+      - spec: Stereo audio I/O
       - spec: 8 channels of 16-bit analog I/O
       - spec: 16 digital I/O
       - spec: On-board speaker amps
   - title: Bela Mini
     desc: 'In 2018 we condensed all the most popular features of Bela into one tiny system that fits in more places than ever before. The Bela Mini is 1/3 the size of the Original Bela, but still powerful - it has 8 16-bit analog inputs, 16 digital I/O and stereo audio I/O. Bela Mini uses the same Bela software as the original, so you still get access to our browser-based IDE in a much smaller form factor. Available as a starter kit (fully assembled board, USB cable, SD card and 2 audio adapter cables), or as a standalone kit.'
     image: mini-kit.jpg
-    specs: 
+    specs:
       - spec: Stereo audio I/O
       - spec: 8 channels of 16-bit analog input
       - spec: 16 digital I/O
