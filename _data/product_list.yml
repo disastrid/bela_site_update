@@ -22,19 +22,19 @@ add-ons:
     desc: CTAG is a multichannel audio system for Bela, developed in collaboration with Henrik Langer and Robert Manzke from the CTAG group at Kiel University. There are two versions available, CTAG FACE (4 channels in, 8 channels out) and CTAG BEAST (8 channels in, 16 channels out).
     url: https://shop.bela.io/ctag
   - title: Multiplexer Capelet
-    desc: If 8 channels of analog input aren't enough, expand up to 64 channels with the Bela Multiplexer Capelet. (Compatible only with Bela Original.)
+    desc: If 8 channels of analog input aren't enough, expand up to 64 channels with the Bela Multiplexer Capelet. (Compatible only with Bela, not compatible with Bela Mini.)
     image: mux.jpg
     url: https://shop.bela.io/bela-accessories/bela-mux-capelet
   - title: Audio Expander Capelet
-    desc: Turn your 8 analog I/O into 4 additional stereo I/O with the Bela Audio Expander. (Compatible only with Bela Original.)
+    desc: Turn your 8 analog I/O into 4 additional stereo I/O with the Bela Audio Expander. (Compatible only with Bela, not compatible with Bela Mini.)
     image: audio-ex.jpg
     url: https://shop.bela.io/bela-accessories/bela-audio-expander-capelet
 limited-edition:
   - title: SALT
-    desc: SALT is a fully programmable Bela synth module created in collaboration with Rebel Technology. This module has 4 CV and 4 trigger, expandable up to 8 of each with the SALT+ expander.
+    desc: SALT is a fully programmable Bela synth module created in collaboration with Rebel Technology. This module has 4 CV and 4 trigger, expandable up to 8 of each with the SALT+ expander. Comes fully assembled and ready to use, including an embedded Bela system.
     image: salt.png
     url: https://shop.bela.io/modular/salt
   - title: PEPPER
-    desc: PEPPER is a DIY, low-cost solution for integrating your Bela board with the world of Modular and Eurorack synths. PEPPER is a custom-designed, bare PCB that comes with a list of common through-hole components and faceplate. Attach PEPPER to your Bela board and you can start prototyping and experimenting with Bela and your modular synth.
+    desc: PEPPER is a DIY, low-cost solution for integrating your Bela board with the world of Modular and Eurorack synths. PEPPER is a custom-designed, bare PCB that comes with a list of common through-hole components and faceplate. Attach PEPPER to your Bela system and you can start prototyping and experimenting with Bela and your modular synth. PEPPER faceplate also available; sold separately.
     image: pepper.png
     url: https://shop.bela.io/modular/pepper
