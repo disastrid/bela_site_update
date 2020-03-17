@@ -33,6 +33,7 @@ body {
   .top-bar-section {
     li:not(.has-form) a:not(.button) {
       color: $white;
+      text-decoration: none;
       background: none;
     }
     .has-dropdown {
@@ -350,10 +351,10 @@ h2.intro {
 }
 
 a {
-  color: $teal-base;
-  border-bottom: 1px dashed $grey-dark-03;
+  color: $accent-01;
+  text-decoration: underline;
   &:hover, &:focus {
-    color: $teal-01;
+    color: $grey-dark-03;
   }
 }
 
