@@ -440,8 +440,13 @@ blockquote {
 
 /* overrides for top bar on mobile */
 
-.top-bar.expanded {
-  background: #333;
+.top-bar {
+  a {
+    text-decoration: none;
+  }
+  &.expanded {
+    background: #333;
+  }
 }
 
 .banner {
@@ -470,4 +475,8 @@ blockquote {
       color: white;
     }
   }
+}
+
+.research-image {
+  margin: 0 auto;
 }
