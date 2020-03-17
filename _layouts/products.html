@@ -61,15 +61,16 @@
           </ul>
           {% endif %}
           <div class='spacing'></div>
-          <a class='button large' href='{{ item.url }}'  target='_blank'>Buy now</a>
+          <a class='button large page-scroll' href='{{ site.url }}/products/{{ item.title | slugify }}'>Learn more</a>
+          <a class='button large' href='{{ item.url }}'  target='_blank'>Buy now <i class='fas fa-arrow-right'></i></a>
         </div>
       </div>
       {% endfor %}
 
       <div class='row product-section'>
-        <h2 id="add-ons">Add-ons and expanders</h2>
+        <h2 id="accessories">Accessories and extras</h2>
       </div>
-      {% for item in site.data.product_list.add-ons %}
+      {% for item in site.data.product_list.accessories %}
       <div class='row product-item'>
         <div class='medium-4 columns'>
           <img class="fadeinleft" alt="" src="{{ site.baseurl }}/images/products/{{ item.image }}"/>
@@ -92,15 +93,16 @@
           </ul>
           {% endif %}
           <div class='spacing'></div>
-          <a class='button large page-scroll' href='{{ item.url }}' target='_blank'>Buy now</a>
+          <a class='button large page-scroll' href='{{ site.url }}/products/{{ item.title | slugify }}'>Learn more</a>
+          <a class='button large page-scroll' href='{{ item.url }}' target='_blank'>Buy now <i class='fas fa-arrow-right'></i></a>
         </div>
       </div>
       {% endfor %}
 
       <div class='row product-section'>
-        <h2 id="limited-edition">Modular</h2>
+        <h2 id="modular">Modular</h2>
       </div>
-      {% for item in site.data.product_list.limited-edition %}
+      {% for item in site.data.product_list.modular %}
       <div class='row product-item'>
         <div class='medium-4 columns'>
           <img class="fadeinleft" alt="" src="{{ site.baseurl }}/images/products/{{ item.image }}"/>
@@ -125,9 +127,11 @@
 
           {% if item.url %}
             {% if item.title=='SALT' %}
-            <a class='button large' href='{{ item.url }}' target='_blank'>Buy now</a>
+            <a class='button large page-scroll' href='{{ site.url }}/products/{{ item.title | slugify }}'>Learn more</a>
+            <a class='button large' href='{{ item.url }}' target='_blank'>Buy now <i class='fas fa-arrow-right'></i></a>
             {% else %}
-            <a class='button large' href='{{ item.url }}' target='_blank'>Buy now</a>
+            <a class='button large page-scroll' href='{{ site.url }}/products/{{ item.title | slugify }}'>Learn more</a>
+            <a class='button large' href='{{ item.url }}' target='_blank'>Buy now <i class='fas fa-arrow-right'></i></a>
             {% endif %}
           {% endif %}
         </div>
