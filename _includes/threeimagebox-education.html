@@ -5,7 +5,8 @@
       {% for researchproject in site.data.pubs %}
       <div class="large-4 column">
       {% if forloop.index <= 3 %}
-        <a href="{{ researchproject.link }}" target="_blank"><img src="{{ site.baseurl }}/images/researchprojects/{{ researchproject.image }}" /></a>
+        <a href="{{ researchproject.link }}" target="_blank"><img src="{{ site.baseurl }}/images/researchprojects/{{ researchproject.image }}" class="research-image" /></a>
+        <br />
         <a href="{{ researchproject.link }}" target="_blank">{{ researchproject.title }}</a>
       {% endif %}
       </div>
@@ -17,7 +18,8 @@
       {% for researchproject in site.data.pubs %}
       <div class="large-4 column">
         {% if forloop.index >= 4 %}
-        <a href="{{ researchproject.link }}" target="_blank"><img src="{{ site.baseurl }}/images/researchprojects/{{ researchproject.image }}" /></a>
+        <a href="{{ researchproject.link }}" target="_blank"><img src="{{ site.baseurl }}/images/researchprojects/{{ researchproject.image }}" class="research-image" /></a>
+        <br />
         <a href="{{ researchproject.link }}" target="_blank">{{ researchproject.title }}</a>
       {% endif %}
       </div>
