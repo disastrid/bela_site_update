@@ -42,3 +42,29 @@ modular:
     desc: PEPPER is a kit for building a module to integrate your Bela unit with the world of Modular and Eurorack synths. PEPPER includes a custom-designed, bare PCB that comes with a list of common through-hole components for you to source, as well as a black faceplate. Solder it together, attach PEPPER to your Bela system and you can start prototyping and experimenting with Bela and your modular synth. 
     image: pepper.png
     url: https://shop.bela.io/modular/pepper
+trill:
+  - title: Trill Bar
+    desc: Trill Bar is a one-axis multi-touch slider. Capable of detecting up to five simultaneous touches as well as touch sizes.
+    image: bar.png
+    dimensions: 120mm x 22mm
+    url: #
+  - title: Trill Square
+    desc:
+    image: square.png
+    dimensions: 74mm x 74mm
+    url: #
+  - title: Trill Craft
+    desc:
+    image: craft.png
+    dimensions: 54mm x 25mm
+    url: #
+  - title: Trill Hex
+    desc:
+    image: hex.png
+    dimensions: 54mm x 54mm (edge to edge)
+    url: #
+  - title: Trill Ring
+    desc:
+    image: ring.png
+    dimensions: 56mm (outer diameter), 36mm (inner diameter)
+    url: #
