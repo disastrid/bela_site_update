@@ -264,6 +264,13 @@ h2.intro {
 }
 
 .button {
+  &.buy {
+    margin-top: 1em;
+    font-size: 1.2em;
+    &:hover {
+      background: $accent-01;
+    }
+  }
   &.intro {
     margin: 0 auto;
     color: white;
@@ -479,4 +486,13 @@ blockquote {
 
 .research-image {
   margin: 0 auto;
+}
+
+.product {
+  &.sub-title {
+    text-transform: none;
+    color: $grey-dark-03;
+    font-size: 1.5em;
+    font-weight: normal;
+  }
 }
