@@ -6,6 +6,7 @@
       {% for project in site.data.projects %}
       <div class="large-4 column">
         <a href="{{ project.url }}" target="_blank"><img src="{{ site.baseurl }}/images/projects/{{ project.image }}" /></a>
+        <br />
         <a href="{{ project.url }}" target="_blank">{{ project.name }}</a>
         <p>{{ project.desc }}</p>
       </div>
