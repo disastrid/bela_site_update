@@ -17,7 +17,9 @@ Bela features an on-board, browser-based IDE, making it easy to get up and runni
 
 <span class="list-header">Bela is small.</span> Bela's compact form factor means that it easily integrates into portable interactive objects, and the condensed Bela Mini means that it fits in more places than ever before. Connect to your computer to program Bela, and then power from an external battery to run in standalone mode - no laptop required.
 
-<span class="list-header">Getting started is easy.</span> Connect Bela by USB, launch the on-board IDE, and start coding right away in C++, PureData, SuperCollider, or FAUST. Our IDE also features everything interactive creators need, like an intuitive interface, a huge library of example projects, and an in-brownser oscilloscope.
+<span class="list-header">Bela makes it easy to get started.</span> No complicated setup or complex toolchains. Just connect Bela to your computer, launch the on-board IDE in a web browser, and start coding right away. 
+
+<span class="list-header">Bela has a powerful IDE.</span>The Bela IDE has great features interactive creators need, like a huge collection of example projects in a variety of languages and an in-browser oscilloscope for visualising and examining your signals. Recently we added a GUI integration, so you can create graphical interfaces for Bela using the coding language <a href='https://p5js.org' target='_blank'>p5</a>. This means you can generate data for Bela with on-screen buttons and sliders, or use data from Bela to drive on-screen graphics.
 
 # Why latency matters
 
@@ -25,7 +27,7 @@ Bela features an on-board, browser-based IDE, making it easy to get up and runni
 
 # The Hardware
 
-Bela comes in two versions. The original Bela board has 8 channels of 16-bit analog I/O, 16 digital I/O, stereo audio I/O, and on-board speaker amps. We have also developed the tiny Bela Mini, by taking the most popular features of Bela and condensing them into a form factor 1/3 the size.
+Bela comes in two versions. Bela has 8 channels of 16-bit analog I/O, 16 digital I/O, stereo audio I/O, and 2 built-in speaker amplifiers. We have also developed the tiny Bela Mini, taking the most popular features of Bela and condensing them into a form factor 1/3 the size. Bela Mini features 8 16-bit analog inputs and 16 digital I/O, as well as 2 channels of audio input and output.
 
 {% include photocaption.html src='bela_comparison.png' %}
 
@@ -35,7 +37,7 @@ Bela runs a custom audio processing environment based on the Xenomai real-time L
 
 {% include photocaption.html src='bela_software.png' %}
 
-For development, Bela lets you code the way that suits you best, and gives you the tools you need to do it. Plug in your Bela and launch our in-browser IDE, where you can write code in C++, SuperCollider, FAUST, Csound, upload PureData patches. The IDE also includes an extensive library of example projects, illustrating synthesis, sensor handling, and a range of other techniques in a variety of languages. There is also an in-browser oscilloscope which lets you visualise multiple channels of data simulteanously, without disconnecting the board - an essential tool for sensor debugging.
+For development, Bela lets you code the way that suits you best, and gives you the tools you need to do it. Plug in your Bela and launch our in-browser IDE, where you can write code in C++, SuperCollider, Csound, upload PureData patches. The IDE also includes an extensive library of example projects, illustrating synthesis, sensor handling, and a range of other techniques in a variety of languages. There is also an in-browser oscilloscope which lets you visualise multiple channels of data simulteanously, without disconnecting the board - an essential tool for sensor debugging - as well as code libraries and GUI integration.
 
 # Who makes Bela?
 
