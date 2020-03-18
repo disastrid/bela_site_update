@@ -117,6 +117,7 @@ body {
 #footer {
   a {
   border: 0;
+  text-decoration: none;
   }
 }
 .footer-image {
@@ -290,6 +291,9 @@ h2.intro {
 
 .intro-title {
   text-transform: none;
+  font-size: 3em;
+  margin-bottom: 1em;
+  line-height: 1.1em;
 }
 
 .intro-text {
