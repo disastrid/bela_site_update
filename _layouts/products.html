@@ -69,7 +69,6 @@
         <h2 id="accessories">Accessories and extras</h2>
       </div>
       {% for item in site.data.product_list.accessories %}
-      {% unless item.title contains 'Trill' %}
       <div class='row product-item'>
         <div class='medium-4 columns'>
           <img class="fadeinleft" alt="" src="{{ site.baseurl }}/images/products/{{ item.image }}"/>
@@ -92,11 +91,14 @@
           </ul>
           {% endif %}
           <div class='spacing'></div>
+          {% if item.title contains 'Trill' %}
+          <a class='button large page-scroll' href='{{ site.url }}/products/trill'>Learn more</a>
+          {% else %}
           <a class='button large page-scroll' href='{{ site.url }}/products/{{ item.title | slugify }}'>Learn more</a>
+          {% endif %}
           <a class='button large page-scroll' href='{{ item.url }}' target='_blank'>Buy now <i class='fas fa-arrow-right'></i></a>
         </div>
       </div>
-      {% endunless %}
       {% endfor %}
 
       <div class='row product-section'>
