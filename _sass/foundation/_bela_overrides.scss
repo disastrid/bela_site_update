@@ -266,7 +266,6 @@ h2.intro {
 
 .button {
   &.buy {
-    margin-top: 1em;
     font-size: 1.2em;
     &:hover {
       background: $accent-01;
@@ -498,5 +497,21 @@ blockquote {
     color: $grey-dark-03;
     font-size: 1.5em;
     font-weight: normal;
+  }
+}
+
+
+#main {
+  >.full {
+    padding-top: 35px;
+  }
+}
+
+.three-image {
+  width: 100%;
+  text-align: center;
+  >.img {
+    display: inline-block;
+    width: 32%;
   }
 }
