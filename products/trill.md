@@ -33,9 +33,4 @@ Trill was inspired by the way we use our hands to interact with the world. Harne
 
 <h2>Designed for Bela, widely compatible</h2>
 
-SALT was designed to be whatever you want it to be: an oscillator, a wave shaper, whatever you can imagine. Program it, re-program it, and make it into exactly what you need. It's your rack - season to taste.
-
-SALT comes fully assembled, with an embedded Bela unit. Connect it to your laptop, navigate to the Bela IDE in a web browser, and start creating straight away. Program SALT using any of Bela's supported languages like C++, Pure Data, Supercollider, Csound. Start programming SALT from scratch, or open one of the SALT example patches that come pre-loaded in the Bela IDE.
-
-
-<p style="text-align: center"><a class='button buy' href="#">Buy Trill <i class='fas fa-arrow-right'></i></a>&nbsp;<a class='button buy' href="#">GET SALT+ NOW <i class='fas fa-arrow-right'></i></a></p>
+Though Trill Touch Sensors are designed to take advantage of Bela's high-resolution sensing and low-latency processing, they are compatible with any system that suppports I2C, such as Teensy, Arduino, and Raspberry Pi. Download the Trill library and example projects for Bela and other platforms on <a href="https://github.com/belaPlatform/trill">our Github</a>.
