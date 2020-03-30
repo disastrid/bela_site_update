@@ -1,18 +1,18 @@
 boards:
   - title: Bela
-    desc: The original Bela board has everything you need to start creating beautifully interactive applications. With 8 16-bit analog I/O and 16 digital I/O you can hook up all your favourite sensors and devices, and get programming with our browser-based IDE. Bela is compatible with our multiplexer and audio expander capelets, and has on-board stereo amps, making this our most fully-featured system. Available as a starter kit (full system of BeagleBone Black, USB cable, Bela cape and two audio adapter cables) or as the stand-alone cape.
+    desc: The original Bela board has everything you need to start creating beautifully interactive applications. With 8 16-bit analog I/O and 16 digital I/O you can hook up all your favourite sensors and devices, and get programming with our browser-based IDE. Bela is compatible with our multiplexer and audio expander capelets, and has on-board stereo amps, making this our most fully-featured system. Bela is available as a starter kit (full system including Bela cape + BeagleBone Black, USB cable, Bela cape and two audio adapter cables), or as a stand-alone cape.
     image: bela.png
     url: https://shop.bela.io/bela
     specs:
-      - spec: Stereo audio I/O
-      - spec: 8 channels of 16-bit analog I/O
+      - spec: 2 audio input and output channels
+      - spec: 8 channels of 16-bit analog input and output
       - spec: 16 digital I/O
-      - spec: On-board speaker amps
+      - spec: 2 on-board speaker amplifiers
   - title: Bela Mini
-    desc: 'In 2018 we condensed all the most popular features of Bela into one tiny system that fits in more places than ever before. The Bela Mini is 1/3 the size of the Original Bela, but still powerful - it has 8 16-bit analog inputs, 16 digital I/O and stereo audio I/O. Bela Mini uses the same Bela software as the original, so you still get access to our browser-based IDE in a much smaller form factor. Available as a starter kit (fully assembled board, USB cable, SD card and 2 audio adapter cables), or as a standalone kit.'
+    desc: 'In 2018 we condensed all the most popular features of Bela into one tiny system that fits in more places than ever before. The Bela Mini is 1/3 the size of the Original Bela, but still powerful - it has 8 16-bit analog inputs, 16 digital I/O and stereo audio I/O. Bela Mini uses the same Bela software as the original, so you still get access to our browser-based IDE in a much smaller form factor. Bela Mini is available as a starter kit (fully assembled system including soldered Bela Mini cape + PocketBeagle, USB cable, SD card and 2 audio adapter cables), or as a stand-alone cape.'
     image: bela_mini.png
     specs:
-      - spec: Stereo audio I/O
+      - spec: 2 audio input and output channels
       - spec: 8 channels of 16-bit analog input
       - spec: 16 digital I/O
     url: https://shop.bela.io/bela-mini
@@ -20,16 +20,16 @@ accessories:
   - title: Trill Touch Sensors
     image: trill_family.png
     desc: Trill is a family of touch sensors designed to make it easy to bring high-resolution touch sensing to your interactive projects. There are five Trill types, all designed by the team that brought you Bela but compatible with a wide range of systems. 
-  - title: CTAG Multichannel system
+  - title: CTAG Multi-channel system
     image: ctag.png
-    desc: CTAG is a multichannel audio system for Bela, developed in collaboration with Henrik Langer and Robert Manzke from the CTAG group at Kiel University. There are two versions available, CTAG FACE (4 channels in, 8 channels out) and CTAG BEAST (8 channels in, 16 channels out).
+    desc: CTAG is a Bela-compatible multi-channel Linux audio system, developed in collaboration with CTAG Audio. Choose from CTAG FACE (4 channels in, 8 channels out) or CTAG BEAST (8 channels in, 16 channels out). Both are available as fully assembled kits, or standalone capes. Add a Bela cape to make your multi-channel system interactive!
     url: https://shop.bela.io/ctag
-  - title: Multiplexer Capelet
-    desc: If 8 channels of analog input aren't enough, expand up to 64 channels with the Bela Multiplexer Capelet. (Compatible only with Bela, not compatible with Bela Mini.)
+  - title: Multiplexer
+    desc: If 8 channels of analog input aren't enough, expand up to 64 channels with the Multiplexer capelet, an add-on accessory for Bela. (Not compatible with Bela Mini.)
     image: mux.png
     url: https://shop.bela.io/collections/extras/products/multiplexer-capelet
-  - title: Audio Expander Capelet
-    desc: Turn your 8 analog I/O into 4 additional stereo I/O with the Bela Audio Expander. (Compatible only with Bela, not compatible with Bela Mini.)
+  - title: Audio Expander
+    desc: 'Turn your 8 analog intputs and outputs into 4 additional audio input and output channels with the Audio Expander capelet, an add-on accessory for Bela. (Not compatible with Bela Mini.)'
     image: audio_expander.png
     url: https://shop.bela.io/products/audio-expander
 modular:
