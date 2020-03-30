@@ -2,7 +2,7 @@ boards:
   - title: Bela
     desc: The original Bela board has everything you need to start creating beautifully interactive applications. With 8 16-bit analog I/O and 16 digital I/O you can hook up all your favourite sensors and devices, and get programming with our browser-based IDE. Bela is compatible with our multiplexer and audio expander capelets, and has on-board stereo amps, making this our most fully-featured system. Available as a starter kit (full system of BeagleBone Black, USB cable, Bela cape and two audio adapter cables) or as the stand-alone cape.
     image: bela.png
-    url: https://shop.bela.io/products/bela-starter-kit
+    url: https://shop.bela.io/bela
     specs:
       - spec: Stereo audio I/O
       - spec: 8 channels of 16-bit analog I/O
@@ -15,7 +15,7 @@ boards:
       - spec: Stereo audio I/O
       - spec: 8 channels of 16-bit analog input
       - spec: 16 digital I/O
-    url: https://shop.bela.io/products/bela-mini-starter-kit
+    url: https://shop.bela.io/bela-mini
 accessories:
   - title: Trill Touch Sensors
     image: trill_family.png
@@ -23,7 +23,7 @@ accessories:
   - title: CTAG Multichannel system
     image: ctag.png
     desc: CTAG is a multichannel audio system for Bela, developed in collaboration with Henrik Langer and Robert Manzke from the CTAG group at Kiel University. There are two versions available, CTAG FACE (4 channels in, 8 channels out) and CTAG BEAST (8 channels in, 16 channels out).
-    url: https://shop.bela.io/collections/ctag-multi-channel-audio-system
+    url: https://shop.bela.io/ctag
   - title: Multiplexer Capelet
     desc: If 8 channels of analog input aren't enough, expand up to 64 channels with the Bela Multiplexer Capelet. (Compatible only with Bela, not compatible with Bela Mini.)
     image: mux.png
@@ -31,7 +31,7 @@ accessories:
   - title: Audio Expander Capelet
     desc: Turn your 8 analog I/O into 4 additional stereo I/O with the Bela Audio Expander. (Compatible only with Bela, not compatible with Bela Mini.)
     image: audio_expander.png
-    url: https://shop.bela.io/collections/extras/products/audio-expander
+    url: https://shop.bela.io/products/audio-expander
 modular:
   - title: SALT
     desc: SALT is a fully programmable Bela synth module created in collaboration with Rebel Technology. This module has 4 CV and 4 trigger, expandable up to 8 of each with the SALT+ expander. Comes fully assembled and ready to use, including an embedded Bela system.
@@ -40,7 +40,7 @@ modular:
   - title: PEPPER
     desc: PEPPER is a kit for building a module to integrate your Bela unit with the world of Modular and Eurorack synths. PEPPER includes a custom-designed, bare PCB that comes with a list of common through-hole components for you to source, as well as a black faceplate. Solder it together, attach PEPPER to your Bela system and you can start prototyping and experimenting with Bela and your modular synth. 
     image: pepper.png
-    url: https://shop.bela.io/collections/modular/products/pepper-diy-kit
+    url: https://shop.bela.io/pepper
 trill:
   - title: Trill Bar
     desc: Trill Bar is a one-axis multi-touch slider. Capable of detecting up to five simultaneous touches as well as touch sizes.
