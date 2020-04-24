@@ -21,7 +21,7 @@
     - name: Wiki
       external: https://github.com/BelaPlatform/Bela/wiki/
     - name: Get started
-      external: https://github.com/BelaPlatform/Bela/wiki/Getting-started-with-Bela
+      external: https://learn.bela.io
 - name: Blog
   external: http://blog.bela.io
 - name: Shop
