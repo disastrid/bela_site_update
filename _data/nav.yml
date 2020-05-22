@@ -14,12 +14,12 @@
   path: /resources
   section-id: resources
   children:
+    - name: Learn
+      external: https://learn.bela.io
     - name: Forum
       external: http://forum.bela.io
     - name: Code
       external: https://github.com/belaplatform/bela/
-    - name: Wiki
-      external: https://github.com/BelaPlatform/Bela/wiki/
     - name: Get started
       external: https://learn.bela.io
 - name: Blog
