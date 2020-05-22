@@ -20,6 +20,8 @@ accessories:
   - title: Trill Touch Sensors
     image: trill_family.png
     desc: Trill is a family of touch sensors designed to make it easy to bring high-resolution touch sensing to your interactive projects. There are five Trill types, all designed by the team that brought you Bela but compatible with a wide range of systems. 
+    url: /products/trill/
+    button_text: Learn More
   - title: CTAG Multi-channel system
     image: ctag.png
     desc: CTAG is a Bela-compatible multi-channel Linux audio system, developed in collaboration with CTAG Audio. Choose from CTAG FACE (4 channels in, 8 channels out) or CTAG BEAST (8 channels in, 16 channels out). Both are available as fully assembled kits, or standalone capes. Add a Bela cape to make your multi-channel system interactive!
@@ -43,22 +45,27 @@ modular:
     url: https://shop.bela.io/pepper
 trill:
   - title: Trill Bar
-    desc: Trill Bar is a one-axis multi-touch slider. Capable of detecting up to five simultaneous touches as well as touch sizes.
+    desc: Trill Bar is a one-axis multi-touch slider, capable of detecting up to five simultaneous touches as well as touch sizes.
     image: bar.png
     dimensions: 120mm x 22mm
+    url: https://shop.bela.io/products/trill-bar
   - title: Trill Square
-    desc:
+    desc: Trill Square is a two-dimensional x/y sensor, perfect for controlling two parameters with a single touch. Can also detect touch size.
     image: square.png
     dimensions: 74mm x 74mm
+    url: https://shop.bela.io/products/trill-square/
   - title: Trill Craft
-    desc:
+    desc: Trill Craft is a 30-channel breakout board, perfect for building custom touch surfaces out of anything conductive - wire, copper tape, conductive fabric, fruit, water and more. 
     image: craft.png
     dimensions: 54mm x 25mm
+    url: https://shop.bela.io/products/trill-craft/
   - title: Trill Hex
-    desc:
+    desc: Trill Hex is a hexagonal two-dimensional x/y sensor, perfect for controlling two parameters with a single touch. Can also detect touch size, and is ideal for tessellating into large interactive surfaces.
     image: hex.png
+    url: https://shop.bela.io/products/trill-square/
     dimensions: 54mm x 54mm (edge to edge)
   - title: Trill Ring
-    desc:
+    desc: Trill Ring is a round one-dimensional sensor, capable of detecting up to five simultaneous touches and touch sizes. Trill Ring can fit an arcade button in the middle, and can fit within a Neopixel ring.
     image: ring.png
     dimensions: 56mm (outer diameter), 36mm (inner diameter)
+    url: https://shop.bela.io/products/trill-ring/
