@@ -23,11 +23,11 @@
         <div class="row">
           <div class="large-12 columns">
             {% for title in site.data.product_list %}
-            {% if title[0] != 'trill' %}
+            {% unless title[0] == "trill" %}
             <div class="large-4 medium-4 columns">
                 <a href="#{{ title[0] }}" class="button large page-scroll">{{ title[0] }}</a>
             </div>
-            {% endif %}
+            {% endunless %}
             {% endfor %}
           </div>
         </div>
@@ -69,7 +69,6 @@
         <h2 id="accessories">Accessories and extras</h2>
       </div>
       {% for item in site.data.product_list.accessories %}
-      {% unless item.title contains 'Trill' %}
       <div class='row product-item'>
         <div class='medium-4 columns'>
           <img class="fadeinleft" alt="" src="{{ site.baseurl }}/images/products/{{ item.image }}"/>
@@ -93,10 +92,9 @@
           {% endif %}
           <div class='spacing'></div>
           <!-- <a class='button large page-scroll' href='{{ site.url }}/products/{{ item.title | slugify }}'>Learn more</a> -->
-          <a class='button large page-scroll' href='{{ item.url }}' target='_blank'>Buy now <i class='fas fa-arrow-right'></i></a>
+          <a class='button large page-scroll' href='{{ item.url }}' target='_blank'>{% if item.title == "Trill Touch Sensors" %}Learn More {% else %}Buy now {% endif %}<i class='fas fa-arrow-right'></i></a>
         </div>
       </div>
-      {% endunless %}
       {% endfor %}
 
       <div class='row product-section'>
