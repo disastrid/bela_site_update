@@ -25,8 +25,6 @@ Trill sensors are also highly customisable. Not only can they be trimmed to size
 
 Though Trill touch sensors are designed to take advantage of Bela's low-latency processing, they are compatible with any system that suppports I2C communication such as Arduino, Teensy and Raspberry Pi. Download the Trill library and example projects for Bela and other platforms on <a href="https://github.com/belaPlatform/trill">the Trill Github repo</a>.
 
-Want to learn how to get started with Trill? [The Trill pages in the Bela Knowledge Base](https://learn.bela.io/products/trill/) include extensive documentation on setting up your sensors, and making them come to life.
-
 <h2>Types of Trill sensors</h2>
 
 {% for item in site.data.product_list.trill %}
