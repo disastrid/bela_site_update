@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://www.kickstarter.com/projects/423153472/trill-touch-sensing-for-makers?ref=5h34wt&token=6b96b598
+  - https://learn.bela.io/products/trill/about-trill/
 ---
