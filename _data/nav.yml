@@ -21,7 +21,7 @@
     - name: Code
       external: https://github.com/belaplatform/bela/
     - name: Get started
-      external: https://learn.bela.io
+      external: https://learn.bela.io/get-started-guide/
 - name: Blog
   external: http://blog.bela.io
 - name: Shop
