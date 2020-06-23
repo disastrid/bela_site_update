@@ -7,9 +7,9 @@ title: All about Bela
 
 # What is Bela?
 
-Bela is an embedded computing platform for creating beautifully responsive interactive applications. Bela provides ultra-low latency, high quality audio, analog and digital I/O in a tiny self-contained package that can be easily embedded. Built upon the [BeagleBone](https://beagleboard.org/) family of open-source embedded computers, Bela combines the processing power of an embedded computer with the timing precision and connectivity of a microcontroller.
+Bela is an embedded computing platform for creating beautifully responsive interactive projects. Bela provides ultra-low latency, high quality audio, analog and digital I/O in a tiny self-contained package that can be easily embedded into a huge range of applications. Built on the [BeagleBone](https://beagleboard.org/) family of open-source embedded computers, Bela combines the processing power of an embedded computer with the timing precision and connectivity of a microcontroller.
 
-Bela features an on-board, browser-based IDE, making it easy to get up and running without requiring any additional software. The end result: digital instruments and interactive objects that are faster to develop and more responsive to use.
+Bela features an on-board IDE that launches right in the browser, making it easy to get up and running without requiring any additional software. Along with dozens of pre-loaded examples, the Bela IDE is also loaded with great tools digital makers need, like an interactive pin diagram and an in-browser oscilloscope. Creating digital interaction has never been so easy to start or so accessible to learners. 
 
 <span class="list-header">Bela is fast.</span> Bela's dedicated hardware and software environment provides hard real-time performance with 1ms latency while retaining the capabilities and power of a 1GHz embedded computer running Linux.
 
