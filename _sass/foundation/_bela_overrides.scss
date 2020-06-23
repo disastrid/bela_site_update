@@ -500,3 +500,22 @@ blockquote {
     font-weight: normal;
   }
 }
+
+.sale-banner {
+  background: $accent-01;
+  padding: .2em 1em;
+  >p {
+    font-family: 'Space Mono';
+    color: white;
+    text-align: center;
+    margin: 0;
+    line-height: 1em;
+    padding: 1em;
+    opacity: .9;
+    font-size: 1.2rem;
+    >a {
+      color: white;
+      opacity: 1;
+    }
+  }
+}
