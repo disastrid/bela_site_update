@@ -6,9 +6,9 @@
   url: https://github.com/BelaPlatform/Bela/
   desc: Bela is open source. Visit our repo to explore our software, examples library, and hardware.
   icon: code
-- name: Wiki
-  url: https://github.com/BelaPlatform/Bela/wiki/
-  desc: Find technical information, examples, circuit diagrams, as well as our Get Started Guide.
+- name: KB
+  url: https://learn.bela.io/
+  desc: The Bela Knowledge Base is full articles and examples about Bela, as well as our Get Started Guide.
   icon: info
 - name: Blog
   url: http://blog.bela.io
