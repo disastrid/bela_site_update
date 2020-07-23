@@ -62,7 +62,7 @@ trill:
   - title: Trill Hex
     desc: Trill Hex is a hexagonal two-dimensional x/y sensor, perfect for controlling two parameters with a single touch. Can also detect touch size, and is ideal for tessellating into large interactive surfaces.
     image: hex.png
-    url: https://shop.bela.io/products/trill-square/
+    url: https://shop.bela.io/products/trill-hex/
     dimensions: 54mm x 54mm (edge to edge)
   - title: Trill Ring
     desc: Trill Ring is a round one-dimensional sensor, capable of detecting up to five simultaneous touches and touch sizes. Trill Ring can fit an arcade button in the middle, and can fit within a Neopixel ring.
