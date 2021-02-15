@@ -69,3 +69,8 @@ trill:
     image: ring.png
     dimensions: 56mm (outer diameter), 36mm (inner diameter)
     url: https://shop.bela.io/products/trill-ring/
+  - title: Trill Flex
+    desc: Trill Flex is a base board that comes with a detachable sensor printed on flexible PCB - perfect for bending around corners, edges and curved surfaces. The sensor is detachable so you can make your own flex sensors and swap in your own creations! Check out the Trill Flex tutorial video to learn more.
+    image: flex.png
+    dimensions: 36mm x 22mm (base), 145mm x 22mm (detachable sensor), 176mm x 22mm (when combined)
+    url: https://shop.bela.io/products/trill-flex/
