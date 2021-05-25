@@ -27,11 +27,11 @@ accessories:
     desc: CTAG is a Bela-compatible multi-channel Linux audio system, developed in collaboration with CTAG Audio. Choose from CTAG FACE (4 channels in, 8 channels out) or CTAG BEAST (8 channels in, 16 channels out). Both are available as fully assembled kits, or standalone capes. Add a Bela cape to make your multi-channel system interactive!
     url: https://shop.bela.io/ctag
   - title: Multiplexer
-    desc: If 8 channels of analog input aren't enough, expand up to 64 channels with the Multiplexer capelet, an add-on accessory for Bela. (Not compatible with Bela Mini.)
+    desc: If 8 channels of analog input aren't enough, expand up to 64 channels with the Multiplexer, an add-on accessory for Bela. (Not compatible with Bela Mini.)
     image: mux.png
     url: https://shop.bela.io/collections/extras/products/multiplexer-capelet
   - title: Audio Expander
-    desc: 'Turn your 8 analog intputs and outputs into 4 additional audio input and output channels with the Audio Expander capelet, an add-on accessory for Bela. (Not compatible with Bela Mini.)'
+    desc: 'Turn your 8 analog intputs and outputs into 4 additional audio input and output channels with the Audio Expander, an add-on accessory for Bela. (Not compatible with Bela Mini.)'
     image: audio_expander.png
     url: https://shop.bela.io/products/audio-expander
 modular:
