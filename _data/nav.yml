@@ -12,6 +12,16 @@
       external: https://learn.bela.io
 - name: Learn
   path: /learn/
+  section-id: learn
 - name: Products
   path: /products/
   section-id: products
+  children:
+    - name: Bela & Bela Mini
+      path: /products/bela-and-bela-mini/
+    - name: Trill
+      path: /products/trill/
+    - name: Multichannel
+      path: /products/multichannel/
+    - name: Modular
+      path: /products/modular/
