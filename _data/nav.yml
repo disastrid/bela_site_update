@@ -1,28 +1,17 @@
-- name: Home
-  path: /
-  section-id: home
-- name: About
-  path: /about
-  section-id: about
+- name: Store
+  external: https://shop.bela.io
+- name: Create
+  path: /create/
+  section-id: create
+  children:
+    - name: Maker Showcase
+      path: /create/maker-showcase/
+    - name: Bela Blog
+      external: https://blog.bela.io
+    - name: Get Started
+      external: https://learn.bela.io
+- name: Learn
+  path: /learn/
 - name: Products
   path: /products/
   section-id: products
-- name: Education
-  path: /education
-  section-id: education
-- name: Resources
-  path: /resources
-  section-id: resources
-  children:
-    - name: Learn
-      external: https://learn.bela.io
-    - name: Forum
-      external: http://forum.bela.io
-    - name: Code
-      external: https://github.com/belaplatform/bela/
-    - name: Get started
-      external: https://learn.bela.io/get-started-guide/
-- name: Blog
-  external: http://blog.bela.io
-- name: Shop
-  external: https://shop.bela.io
