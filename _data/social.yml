@@ -1,11 +1,11 @@
-- name: facebook
-  link: "https://facebook.com/belaPlatform"
 - name: instagram
   link: "https://instagram.com/belaPlatform"
-- name: twitter
-  link: "https://twitter.com/belaPlatform"
 - name: youtube
   link: "https://www.youtube.com/channel/UCgWd1Q2dcWdqCGNl5BijFsA"
+- name: twitter
+  link: "https://twitter.com/belaPlatform"
+- name: facebook
+  link: "https://facebook.com/belaPlatform"
 - name: github
   link: "https://github.com/belaPlatform/bela"
 - name: envelope
