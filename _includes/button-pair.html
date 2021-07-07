@@ -1,0 +1,19 @@
+<div class="full inline-links">
+    <div class="row">
+        <div class="large-12 columns">
+            {% assign linkArray = include.links | split: ", " %} 
+            {% assign textArray = include.text | split: ", " %} 
+            {% for link in linkArray %}
+            
+            <div class="large-6 medium-6 small-12 columns">
+                <div class="large-1 medium-1 small-2 columns">&nbsp;</div>
+                <div class="large-10 medium-10 small-8 columns">
+                    <a href="{{ link }}" class="button large" {% if link contains 'http' %}target="new"{% endif %}>{{ textArray[forloop.index0] | capitalize }}</a>
+                </div>
+                <div class="large-1 medium-1 small-2 columns">&nbsp;</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="spacing four"></div>
+</div>
