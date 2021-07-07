@@ -6,25 +6,10 @@ hero-image: "hero-slug.png"
 
 
 
-<h1 class="intro-title">Create beautiful interaction with sensors and sound.</h1>
+<h1 class="intro-title">For ambitious creators</h1>
 
+{% include button-pair.html links="about, https://shop.bela.io" text="Discover more, Shop now"%}
 
+{% include section-title.html section-title="Create" %}
 
-
-<p class="intro-text">Bela is a maker platform for creating beautiful interaction.</p> 
-
-<p class="intro-text">Designed for artists, musicians, researchers and makers, Bela brings the power of ultra-low latency interactive audio and sensors to your digital projects.</p>
-
-<p style="text-align: center"><a class='button large intro-button' href="about">MEET BELA <i class='fas fa-arrow-right'></i></a></p>
-
-
-{% include about-products.html %}
-{% include trill-front.html %}
-{% include roundels.html %}
-
-
-{% include about-community.html %}
-
-{% include threeimagebox.html %}
-{% include about-education.html %}
 <div class="spacing four"></div>

@@ -1,0 +1,10 @@
+- name: Create
+  url: /create/
+- name: Learn
+  url: /learn/
+- name: Products
+  url: /products/
+- name: Blog
+  external: https://blog.bela.io
+- name: Getting Started
+  external: https://learn.bela.io/get-started
