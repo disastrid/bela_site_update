@@ -1,0 +1,11 @@
+<div class="spacing two"></div>
+<div class="row">
+    {% for section in site.data.spotlight %}
+    <div class="large-6 medium-6 small-12 columns">
+        <div class="spotlight-block" onclick="location.href='{{ section.url }}';" style="background-image: url({{site.baseurl}}/images/create/{{ section.image }});">
+            <h1 class="spotlight-title">{{ section.name }}</h1>
+        </div>
+    </div>
+    {% endfor %}
+    <div class="spacing four"></div>
+</div>
