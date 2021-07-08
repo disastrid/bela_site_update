@@ -1,0 +1,15 @@
+<div class="spacing two"></div>
+<div class="row">
+    {% for section in site.data.product-sections %} {% if forloop.first %}
+    <div class="large-12 medium-12 small-12 columns">
+        <div class="product-block first" onclick="location.href='{{ site.baseurl }}/products/{% if forloop.first %}bela-and-bela-mini{% else %}{{ section.name | slugify }}{% endif %}';" style="background-image: url({{site.baseurl}}/images/products/slug-{% if forloop.first %}bela-and-bela-mini{% else %}{{ section.name | slugify }}{% endif %}.png);">
+            {% else %}
+            <div class="large-6 medium-6 small-12 columns">
+                <div class="product-block" onclick="location.href='{{ site.baseurl }}/products/{% if forloop.first %}bela-and-bela-mini{% else %}{{ section.name | slugify }}{% endif %}';" style="background-image: url({{site.baseurl}}/images/products/slug-{% if forloop.first %}bela-and-bela-mini{% else %}{{ section.name | slugify }}{% endif %}.png);">
+                    {% endif %}
+                    <h1>{{ section.name }}</h1>
+                </div>
+            </div>
+            {% endfor %}
+            <div class="spacing four"></div>
+        </div>
