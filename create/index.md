@@ -11,7 +11,7 @@ The Bela product range has been made to be compatible with a wide range of digit
 
 The Bela community is vast and progressive: here are some of our favourite community creations across each of our product ranges.
 
-// Image blocks here
+{% include spotlight-blocks.html %}
 
 For more inspiring creations and the materials used to create them, check out the Bela blog site:
 
