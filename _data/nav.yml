@@ -5,7 +5,7 @@
   section-id: create
   children:
     - name: Maker Showcase
-      path: /create/maker-showcase/
+      path: /create/
     - name: Bela Blog
       external: https://blog.bela.io
     - name: Get Started
