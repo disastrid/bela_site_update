@@ -32,3 +32,5 @@
       path: /products/multichannel/
     - name: Modular
       path: /products/modular/
+    - name: Bela IDE
+      path: /products/bela-ide/
