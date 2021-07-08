@@ -1,92 +1,85 @@
 <div id='footer'>
 
-  <div class='mod modCallToAction'>
-    <div class='one spacing'></div>
-    <form action="https://qmul.us1.list-manage.com/subscribe/post?u=984c0ed7483851c64760303d2&amp;id=d2150b705c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div class='row'>
-          <div class='large-12 medium-12 small-12 columns'>
-            <p class='newsletter-sub pull-left'>Subscribe to the Bela Newsletter:</p>
-          </div>
-          <div class="large-9 medium-9 small-12 columns">
-              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_984c0ed7483851c64760303d2_d2150b705c" tabindex="-1" value=""></div>
-          </div>
-          <div class='large-3 medium-3 small-9 columns'>
-            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="boxed button sub-button">
-          </div>
-      </div>
-    </form>
-  </div>
-  <div class='three spacing'></div>
-  <div class='row'>
-    <div class='large-3 medium-3 columns'>
-      <h1>
-        <a href='index.html'>
-          <img alt="" class="footer-image" src="{{ site.baseurl }}/images/logo_white.png" />
-        </a>
-      </h1>
-      <div class='spacing'></div>
-      <div class='spacing'></div>
+    <div class='mod modCallToAction'>
+        <div class='one spacing'></div>
+        <form action="https://qmul.us1.list-manage.com/subscribe/post?u=984c0ed7483851c64760303d2&amp;id=d2150b705c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class='row'>
+                <div class='large-12 medium-12 small-12 columns'>
+                    <p class='newsletter-sub pull-left'>Subscribe to the Bela Newsletter:</p>
+                </div>
+                <div class="large-9 medium-9 small-12 columns">
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_984c0ed7483851c64760303d2_d2150b705c" tabindex="-1" value=""></div>
+                </div>
+                <div class='large-3 medium-3 small-9 columns'>
+                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="boxed button sub-button">
+                </div>
+            </div>
+        </form>
     </div>
-    <div class='large-3 medium-3 columns'>
-      <div class='spacing'></div>
-      <div class='links'>
-        <h4>Links</h4>
-        <ul>
-          <li><a href="{{ site.baseurl }}/about">About</a></li>
-          <li><a href="{{ site.baseurl }}/products">Products</a></li>
-          <li><a href="{{ site.baseurl }}/education">Education</a></li>
-          <li><a href="{{ site.baseurl }}/resources">Resources</a></li>
-          <li><a href="{{ site.baseurl }}/press">Press</a></li>
-          <li><a href="{{ site.baseurl }}/our-story">Our Story</a></li>
-          <li><a href="https://shop.bela.io" target="_blank">Shop</a></li>
-        </ul>
-      </div>
-      <div class='spacing'></div>
-    </div>
-    <div class='large-3 medium-3 columns'>
-      <div class='spacing'></div>
-      <div class='links'>
-        <h4>Resources</h4>
-        <ul>
-          <li><a href="https://forum.bela.io/">Forum</a></li>
-          <li><a href="https://github.com/BelaPlatform/Bela">Code</a></li>
-          <li><a href="https://github.com/BelaPlatform/Bela/wiki">Wiki</a>
-          <li><a href="https://github.com/BelaPlatform/Bela/wiki/Getting-started-with-Bela">Get Started</a></li>
-          <li><a href="http://blog.bela.io">Blog</a></li>
-          <!-- <li><a href="http://docs.bela.io/">Docs</a></li> -->
-        </ul>
-      </div>
-      <div class='spacing'></div>
-    </div>
-    <div class='large-3 medium-3 columns'>
-      <div class='spacing'></div>
-      <ul class='socials'>
-        {% for platform in site.data.social %}
-          {% assign loopindex = forloop.index | modulo: 3 %}
-          <li>
-            <a href='{{ platform.link }}'>
+    <div class='three spacing'></div>
+    <div class='row'>
+        <div class='large-3 medium-3 columns'>
+            <h1>
+                <a href='index.html'>
+                    <img alt="" class="footer-image" src="{{ site.baseurl }}/images/logo_white.png" />
+                </a>
+            </h1>
+            <div class='spacing'></div>
+            <div class='spacing'></div>
+        </div>
+        <div class='large-3 medium-3 columns'>
+            <div class='spacing'></div>
+            <div class='links'>
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="https://shop.bela.io" taget="new">Store</a></li>
+                    <li><a href="{{ site.baseurl }}/create/">Create</a></li>
+                    <li><a href="{{ site.baseurl }}/learn/">Learn</a></li>
+                    <li><a href="{{ site.baseurl }}/products/">Products</a></li>
+                    <li><a href="{{ site.baseurl }}/press">Press</a></li>
+                    <li><a href="{{ site.baseurl }}/our-story">Our Story</a></li>
+                </ul>
+            </div>
+            <div class='spacing'></div>
+        </div>
+        <div class='large-3 medium-3 columns'>
+            <div class='spacing'></div>
+            <div class='links'>
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="http://blog.bela.io">Blog</a></li>
+                    <li><a href="https://forum.bela.io/">Forum</a></li>
+                    <li><a href="https://github.com/BelaPlatform/Bela/wiki/Getting-started-with-Bela">Get Started</a></li>
+                </ul>
+            </div>
+            <div class='spacing'></div>
+        </div>
+        <div class='large-3 medium-3 columns'>
+            <div class='spacing'></div>
+            <ul class='socials'>
+                {% for platform in site.data.social %} {% assign loopindex = forloop.index | modulo: 3 %}
+                <li>
+                    <a href='{{ platform.link }}'>
               {% if platform.name == 'envelope' %}
               <i class='fa fa-{{ platform.name }}'></i>
               {% else %}
               <i class='fab fa-{{ platform.name }}'></i>
               {% endif %}
             </a>
-          </li>
-          {% if loopindex == 0 %}
-        <br />
-          {% endif %}
-        {% endfor %}
-      </ul>
-      <div class='spacing'></div>
+                </li>
+                {% if loopindex == 0 %}
+                <br /> {% endif %} {% endfor %}
+            </ul>
+            <div class='spacing'></div>
+        </div>
     </div>
-  </div>
 </div>
 
-<script src="{{ "/javascripts/jquery.countTo.js" | prepend: site.baseurl }}" type="text/javascript"></script>
-<script src="{{ "/javascripts/jquery.appear.js" | prepend: site.baseurl }}" type="text/javascript"></script>
-<script src="{{ "/javascripts/jquery.validate.js" | prepend: site.baseurl }}" type="text/javascript"></script>
-<script src="{{ "/javascripts/jquery.sequence-min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
-<script src="{{ "/javascripts/jquery.easing.1.3.js" | prepend: site.baseurl }}" type="text/javascript"></script>
-<script src="{{ "/javascripts/app.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ " /javascripts/jquery.countTo.js " | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ " /javascripts/jquery.appear.js " | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ " /javascripts/jquery.validate.js " | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ " /javascripts/jquery.sequence-min.js " | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ " /javascripts/jquery.easing.1.3.js " | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ " /javascripts/app.js " | prepend: site.baseurl }}" type="text/javascript"></script>
