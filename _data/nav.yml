@@ -13,6 +13,13 @@
 - name: Learn
   path: /learn/
   section-id: learn
+  children:
+      - name: For Makers
+        path: /learn/makers/
+      - name: Education
+        path: /learn/education/
+      - name: Research
+        path: /learn/research/
 - name: Products
   path: /products/
   section-id: products
