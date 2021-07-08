@@ -1,0 +1,12 @@
+- name: Spotlight on Bela
+  image: /block-bela.png
+  url: #
+- name: Spotlight on Trill
+  image: /block-trill.png
+  url: #
+- name: Spotlight on Modular
+  image: /block-modular.png
+  url: #
+- name: Spotlight on Multichannel
+  image: /block-multichannel.png
+  url: #
