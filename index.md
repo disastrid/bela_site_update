@@ -4,11 +4,11 @@ section_id: home
 hero-image: "hero-slug.png"
 ---
 
+<h1 class="intro-title">Bela: For ambitious creators</h1>
 
+{% include button-large.html text="Shop Now" url="https://shop.bela.io"%}
 
-<h1 class="intro-title">For ambitious creators</h1>
-
-{% include button-pair.html links="about, https://shop.bela.io" text="Discover more, Shop now"%}
+<h2>Discover more:</h2>
 
 {% include section-title.html section-title="Create" %}
 
