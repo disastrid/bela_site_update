@@ -6,9 +6,11 @@ hero-image: "hero-slug.png"
 
 
 
-<h1 class="intro-title">For ambitious creators</h1>
+<h1 class="intro-title">Bela: For ambitious creators</h1>
 
 {% include button-large.html url="https://shop.bela.io" text="Shop now"%}
+
+<h2>Discover more:</h2>
 
 {% include section-title.html section-title="Create" %}
 
