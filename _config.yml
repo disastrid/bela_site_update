@@ -3,7 +3,7 @@ title: "Bela: The platform for beautiful interaction"
 email: info@bela.io
 description: > # this means to ignore newlines until "baseurl:"
   Bela is the platform for ultra-low latency audio and sensor processing.
-baseurl: "https://disastrid.github.io/bela_site_update/" # the subpath of your site, e.g. /blog/
+baseurl: "https://disastrid.github.io/bela_site_update" # the subpath of your site, e.g. /blog/
 # baseurl: ""
 twitter_username: belaPlatform
 github_username:  belaPlatform
