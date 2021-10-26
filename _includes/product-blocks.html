@@ -2,12 +2,12 @@
 <div class="row">
     {% for section in site.data.product-sections %} {% if forloop.first %}
     <div class="large-12 medium-12 small-12 columns">
-        <div class="product-block first" onclick="location.href='{{ site.baseurl }}/products/bela-and-bela-mini/';" style="background-image: url({{site.baseurl}}/images/hero/products/hero-bela.jpg);">
+        <div class="product-block first" onclick="location.href='{{ site.baseurl }}/products/bela-and-bela-mini/';" style="background-image: url({{site.baseurl}}/images/hero/products/hero-bela.png);">
             {% else %}
             <div class="large-6 medium-6 small-12 columns">
-                <div class="product-block" onclick="location.href='{{ site.baseurl }}/products/{{ section.name | slugify }}/';" style="background-image: url({{site.baseurl}}/images/hero/products/hero-{{ section.name | slugify }}.jpg);">
+                <div class="product-block" onclick="location.href='{{ site.baseurl }}/products/{{ section.name | slugify }}/';" style="background-image: url({{site.baseurl}}/images/hero/products/hero-{{ section.name | slugify }}.png);">
                     {% endif %}
-                    <h1>{{ section.name }}</h1>
+                    <h1 class="bg">{{ section.name }}</h1>
                 </div>
             </div>
             {% endfor %}
