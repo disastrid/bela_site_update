@@ -648,3 +648,13 @@ blockquote {
     font-size: 2.75em;
     padding-right: 1em;
 }
+
+.fadeinleft.appear,
+.fadeinright.appear {
+    padding-top: 1.5em;
+}
+
+h1.bg {
+    padding: 0 .5em;
+    background-color: $teal-base;
+}
