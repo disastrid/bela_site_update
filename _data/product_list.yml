@@ -17,6 +17,10 @@ boards:
       - spec: 16 digital I/O
     url: https://shop.bela.io/bela-mini
 accessories:
+  - title: Bela Mini Multichannel Expander
+    image: bela-mini-multichannel.png
+    desc: The Bela Mini Multichannel Expander is an add-on for Bela Mini that expands 2 channels of audio I/O to a massive 8. Along with multichannel audio you get all the interactivity and power of Bela Mini, in an astonishingly small package. Available as a standalone add-on, or as a starter kit that includes a Bela Mini, bundled together at a discount price.
+    url: https://shop.bela.io/collections/bela-mini-multichannel
   - title: CTAG FACE and BEAST
     image: ctag.png
     desc: CTAG is a Bela-compatible multi-channel Linux audio system, developed in collaboration with CTAG Audio. Choose from CTAG FACE (4 channels in, 8 channels out) or CTAG BEAST (8 channels in, 16 channels out). Both are available as fully assembled kits, or standalone capes. Add a Bela cape to make your multi-channel system interactive!
