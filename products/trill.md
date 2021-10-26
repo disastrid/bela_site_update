@@ -1,7 +1,7 @@
 ---
 layout: product-page
 section_id: products
-hero-image: /products/hero-trill.jpg
+hero-image: /products/hero-trill.png
 title: Trill Touch Sensors
 sub-title: Capacitive touch sensing inspired by musicians, designed for makers
 permalink: /products/trill/

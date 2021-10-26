@@ -1,7 +1,7 @@
 ---
 layout: product-page
 section_id: products
-hero-image: /products/hero-modular.jpg
+hero-image: /products/hero-modular.png
 title: Modular
 sub-title: Bringing the expansive world of Bela into your Modular set-up
 permalink: /products/modular/

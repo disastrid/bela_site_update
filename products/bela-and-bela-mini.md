@@ -1,7 +1,7 @@
 ---
 layout: product-page
 section_id: default
-hero-image: /products/hero-bela.jpg
+hero-image: /products/hero-bela.png
 title: Bela and Bela Mini
 sub-title: Change how you interact with audio, forever.
 permalink: /products/bela-and-bela-mini/

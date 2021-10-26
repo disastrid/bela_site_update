@@ -1,7 +1,7 @@
 ---
 layout: product-page
 section_id: products
-hero-image: /products/hero-multichannel.jpg
+hero-image: /products/hero-multichannel.png
 title: Multichannel
 sub-title: Take your audio to the next level
 permalink: /products/multichannel/
