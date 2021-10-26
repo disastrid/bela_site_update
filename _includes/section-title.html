@@ -1,7 +1,8 @@
 <div class="full">
     <div class="row">
+        <h2>Discover more:</h2>
         {% for section in site.data.front-sections %} {% if section.url %}
-        <div onclick="location.href='{{ {{site.baseurl}}/section.url }}';" class="large-12 columns front-section" style="background-image: url({{site.baseurl}}/images/hero/hero-{{ section.name | slugify }}.jpg);">
+        <div onclick="location.href='{{ site.baseurl }}/{{ section.url }}';" class="large-12 columns front-section" style="background-image: url({{site.baseurl}}/images/hero/hero-{{ section.name | slugify }}.jpg);">
             {% else %}
             <div onclick="window.open('{{ section.external }}', '_blank').focus();" class="large-12 columns front-section" style="background-image: url({{site.baseurl}}/images/hero/hero-{{ section.name | slugify }}.jpg);">
                 {% endif %}
